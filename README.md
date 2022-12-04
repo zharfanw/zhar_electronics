@@ -6,5 +6,5 @@ Database of Zharfan's Electronics
 
 ## Electronics Theme
 ### Power Distribution Module DC
-    1. Single Switch PDM
-    2.
+  1. Single Switch PDM
+  2.
