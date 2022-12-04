@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "003ffff_80000001",
+    "visible_layers": "ffcfeff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "AtTinyRaw_1.kicad_prl",
+    "filename": "LTC2954_ModuleConnector.kicad_prl",
     "version": 3
   },
   "project": {
