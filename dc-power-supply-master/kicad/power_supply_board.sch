@@ -1,0 +1,4170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 4
+Title "Power Supply Board"
+Date ""
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dc-power-supply-rescue:GND #PWR029
+U 1 1 5961CD91
+P 9750 2800
+F 0 "#PWR029" H 9750 2550 50  0001 C CNN
+F 1 "GND" H 9750 2650 50  0000 C CNN
+F 2 "" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 2800 50  0001 C CNN
+	1    9750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP1_Small C22
+U 1 1 5961CD97
+P 9950 2650
+F 0 "C22" H 9960 2720 50  0000 L CNN
+F 1 "22uF" H 9960 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 9950 2650 50  0001 C CNN
+F 3 "" H 9950 2650 50  0001 C CNN
+F 4 "63V" H 10030 2505 31  0000 C CNN "Field4"
+F 5 "EMVA630ADA220MF80G" H 10040 2460 16  0000 C CNN "Field5"
+	1    9950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR083
+U 1 1 5961CD9E
+P 19700 3100
+F 0 "#PWR083" H 19700 2850 50  0001 C CNN
+F 1 "GND" H 19700 2950 50  0000 C CNN
+F 2 "" H 19700 3100 50  0001 C CNN
+F 3 "" H 19700 3100 50  0001 C CNN
+	1    19700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C54
+U 1 1 5961CDA4
+P 19700 2950
+F 0 "C54" H 19710 3020 50  0000 L CNN
+F 1 "1uF" H 19710 2870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 19700 2950 50  0001 C CNN
+F 3 "" H 19700 2950 50  0001 C CNN
+F 4 "50V" H 19770 2810 31  0000 C CNN "Field4"
+	1    19700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R49
+U 1 1 5961CDAB
+P 19200 2800
+F 0 "R49" V 19230 2790 50  0000 C TNN
+F 1 "0.010" V 19160 2790 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 19200 2800 50  0001 C CNN
+F 3 "" H 19200 2800 50  0001 C CNN
+F 4 "1%" V 19080 2780 31  0000 C CNN "Field4"
+F 5 "0805" V 19040 2780 31  0000 C CNN "Field5"
+	1    19200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR081
+U 1 1 5961CDB2
+P 18950 3100
+F 0 "#PWR081" H 18950 2850 50  0001 C CNN
+F 1 "GND" H 18950 2950 50  0000 C CNN
+F 2 "" H 18950 3100 50  0001 C CNN
+F 3 "" H 18950 3100 50  0001 C CNN
+	1    18950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R47
+U 1 1 5961CDB8
+P 18950 2950
+F 0 "R47" H 18980 2970 50  0000 L CNN
+F 1 "10k" H 18980 2910 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 18950 2950 50  0001 C CNN
+F 3 "" H 18950 2950 50  0001 C CNN
+F 4 "1%" H 19050 2860 31  0000 C CNN "Field4"
+F 5 "1206" H 19050 2820 31  0000 C CNN "Field5"
+	1    18950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR079
+U 1 1 5961CDBF
+P 18400 3150
+F 0 "#PWR079" H 18400 2900 50  0001 C CNN
+F 1 "GND" H 18400 3000 50  0000 C CNN
+F 2 "" H 18400 3150 50  0001 C CNN
+F 3 "" H 18400 3150 50  0001 C CNN
+	1    18400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R44
+U 1 1 5961CDE1
+P 17700 2950
+F 0 "R44" H 17730 2970 50  0000 L CNN
+F 1 "402" H 17730 2910 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17700 2950 50  0001 C CNN
+F 3 "" H 17700 2950 50  0001 C CNN
+F 4 "1%" H 17800 2850 31  0000 C CNN "Field4"
+	1    17700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR067
+U 1 1 5961CDFB
+P 16150 3150
+F 0 "#PWR067" H 16150 2900 50  0001 C CNN
+F 1 "GND" H 16150 3000 50  0000 C CNN
+F 2 "" H 16150 3150 50  0001 C CNN
+F 3 "" H 16150 3150 50  0001 C CNN
+	1    16150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR063
+U 1 1 5961CE0F
+P 15800 3150
+F 0 "#PWR063" H 15800 2900 50  0001 C CNN
+F 1 "GND" H 15800 3000 50  0000 C CNN
+F 2 "" H 15800 3150 50  0001 C CNN
+F 3 "" H 15800 3150 50  0001 C CNN
+	1    15800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C34
+U 1 1 5961CE2A
+P 14900 2950
+F 0 "C34" H 14910 3020 50  0000 L CNN
+F 1 "10uF" H 14910 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 14900 2950 50  0001 C CNN
+F 3 "" H 14900 2950 50  0001 C CNN
+F 4 "50V" H 14995 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 15000 2775 31  0000 C CNN "Field5"
+	1    14900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C33
+U 1 1 5961CE31
+P 14600 2950
+F 0 "C33" H 14610 3020 50  0000 L CNN
+F 1 "100uF" H 14605 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 14600 2950 50  0001 C CNN
+F 3 "" H 14600 2950 50  0001 C CNN
+F 4 "35V" H 14700 2830 31  0000 C CNN "Field4"
+F 5 "EMZA350ADA101MF80G" H 14690 2780 16  0000 C CNN "Field5"
+	1    14600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R32
+U 1 1 5961CE38
+P 15000 4700
+F 0 "R32" V 15030 4690 50  0000 C TNN
+F 1 "100k" V 14960 4690 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15000 4700 50  0001 C CNN
+F 3 "" H 15000 4700 50  0001 C CNN
+F 4 "1%" V 14875 4690 31  0000 C CNN "Field4"
+	1    15000 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR052
+U 1 1 5961CE46
+P 14200 5150
+F 0 "#PWR052" H 14200 4900 50  0001 C CNN
+F 1 "GND" H 14200 5000 50  0000 C CNN
+F 2 "" H 14200 5150 50  0001 C CNN
+F 3 "" H 14200 5150 50  0001 C CNN
+	1    14200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R29
+U 1 1 5961CE4C
+P 14200 5050
+F 0 "R29" H 14230 5070 50  0000 L CNN
+F 1 "4.99k" H 14230 5010 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14200 5050 50  0001 C CNN
+F 3 "" H 14200 5050 50  0001 C CNN
+F 4 "1%" H 14330 4950 31  0000 C CNN "Field4"
+	1    14200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:Q_PNP_BCE Q2
+U 1 1 5961CE53
+P 14300 4700
+F 0 "Q2" H 14170 4830 50  0000 L CNN
+F 1 "MMBT3906-7-F" H 13890 4900 31  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14500 4800 50  0001 C CNN
+F 3 "" H 14300 4700 50  0001 C CNN
+	1    14300 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R30
+U 1 1 5961CE5A
+P 14500 4300
+F 0 "R30" H 14530 4320 50  0000 L CNN
+F 1 "100k" H 14530 4260 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14500 4300 50  0001 C CNN
+F 3 "" H 14500 4300 50  0001 C CNN
+F 4 "1%" H 14570 4205 31  0000 C CNN "Field4"
+	1    14500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R28
+U 1 1 5961CE61
+P 14200 4300
+F 0 "R28" H 14230 4320 50  0000 L CNN
+F 1 "1k" H 14230 4260 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14200 4300 50  0001 C CNN
+F 3 "" H 14200 4300 50  0001 C CNN
+F 4 "1%" H 14270 4205 31  0000 C CNN "Field4"
+	1    14200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R25
+U 1 1 5961CE6F
+P 13400 3600
+F 0 "R25" V 13430 3590 50  0000 C TNN
+F 1 "4.99k" V 13360 3590 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13400 3600 50  0001 C CNN
+F 3 "" H 13400 3600 50  0001 C CNN
+F 4 "1%" V 13515 3590 31  0000 C CNN "Field4"
+	1    13400 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C31
+U 1 1 5961CE76
+P 13950 3800
+F 0 "C31" V 13970 3760 50  0000 R TNN
+F 1 "1nF" V 13870 3730 50  0000 L BNN
+F 2 "Capacitors_SMD:C_0603" H 13950 3800 50  0001 C CNN
+F 3 "" H 13950 3800 50  0001 C CNN
+	1    13950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R26
+U 1 1 5961CE7D
+P 13400 3800
+F 0 "R26" V 13430 3790 50  0000 C TNN
+F 1 "1k" V 13360 3790 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13400 3800 50  0001 C CNN
+F 3 "" H 13400 3800 50  0001 C CNN
+F 4 "1%" V 13280 3790 31  0000 C CNN "Field4"
+	1    13400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:L_Small L4
+U 1 1 5961CE99
+P 13500 2800
+F 0 "L4" H 13530 2840 50  0000 L CNN
+F 1 "5.5uH" H 13530 2760 50  0000 L CNN
+F 2 "Inductors:Inductor_Wurth_HCI-1050" H 13500 2800 50  0001 C CNN
+F 3 "" H 13500 2800 50  0001 C CNN
+F 4 "744325550" V 13450 2800 31  0000 C CNN "Model"
+F 5 "Wurth Electronics" V 13395 2790 31  0000 C CNN "Field5"
+	1    13500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C30
+U 1 1 5961CEA0
+P 13100 2650
+F 0 "C30" H 13110 2720 50  0000 L CNN
+F 1 "0.1uF" H 13110 2590 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 13100 2650 50  0001 C CNN
+F 3 "" H 13100 2650 50  0001 C CNN
+F 4 "50V" H 13205 2535 31  0000 C CNN "Field4"
+	1    13100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR044
+U 1 1 5961CEA7
+P 12400 4650
+F 0 "#PWR044" H 12400 4400 50  0001 C CNN
+F 1 "GND" H 12400 4500 50  0000 C CNN
+F 2 "" H 12400 4650 50  0001 C CNN
+F 3 "" H 12400 4650 50  0001 C CNN
+	1    12400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR032
+U 1 1 5961CEAD
+P 10400 3800
+F 0 "#PWR032" H 10400 3550 50  0001 C CNN
+F 1 "GND" H 10400 3650 50  0000 C CNN
+F 2 "" H 10400 3800 50  0001 C CNN
+F 3 "" H 10400 3800 50  0001 C CNN
+	1    10400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R16
+U 1 1 5961CEB3
+P 10400 3650
+F 0 "R16" H 10430 3670 50  0000 L CNN
+F 1 "549" H 10430 3610 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10400 3650 50  0001 C CNN
+F 3 "" H 10400 3650 50  0001 C CNN
+F 4 "1%" H 10495 3550 31  0000 C CNN "Field4"
+	1    10400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LED_Small D5
+U 1 1 5961CEBA
+P 10550 3500
+F 0 "D5" H 10500 3625 50  0000 L CNN
+F 1 "Red" H 10510 3430 31  0000 L CNN
+F 2 "LEDs:LED_0603" V 10550 3500 50  0001 C CNN
+F 3 "" V 10550 3500 50  0001 C CNN
+	1    10550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR034
+U 1 1 5961CEC1
+P 10700 3800
+F 0 "#PWR034" H 10700 3550 50  0001 C CNN
+F 1 "GND" H 10700 3650 50  0000 C CNN
+F 2 "" H 10700 3800 50  0001 C CNN
+F 3 "" H 10700 3800 50  0001 C CNN
+	1    10700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C24
+U 1 1 5961CEC7
+P 10700 3650
+F 0 "C24" H 10710 3720 50  0000 L CNN
+F 1 "1uF" H 10710 3570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10700 3650 50  0001 C CNN
+F 3 "" H 10700 3650 50  0001 C CNN
+F 4 "Low ESR" H 10700 3500 31  0000 C CNN "Field4"
+	1    10700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR035
+U 1 1 5961CECE
+P 11000 3900
+F 0 "#PWR035" H 11000 3650 50  0001 C CNN
+F 1 "GND" H 11000 3750 50  0000 C CNN
+F 2 "" H 11000 3900 50  0001 C CNN
+F 3 "" H 11000 3900 50  0001 C CNN
+	1    11000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C25
+U 1 1 5961CED4
+P 11000 3750
+F 0 "C25" H 11010 3820 50  0000 L CNN
+F 1 "0.1uF" H 11010 3670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11000 3750 50  0001 C CNN
+F 3 "" H 11000 3750 50  0001 C CNN
+	1    11000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R19
+U 1 1 5961CEDB
+P 11300 3850
+F 0 "R19" H 11330 3870 50  0000 L CNN
+F 1 "60.4k" H 11330 3810 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11300 3850 50  0001 C CNN
+F 3 "" H 11300 3850 50  0001 C CNN
+F 4 "1%" H 11415 3750 31  0000 C CNN "Field4"
+F 5 "700kHz" H 11420 3695 31  0000 C CNN "Field5"
+	1    11300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR036
+U 1 1 5961CEE2
+P 11300 4000
+F 0 "#PWR036" H 11300 3750 50  0001 C CNN
+F 1 "GND" H 11300 3850 50  0000 C CNN
+F 2 "" H 11300 4000 50  0001 C CNN
+F 3 "" H 11300 4000 50  0001 C CNN
+	1    11300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR039
+U 1 1 5961CEE8
+P 11600 4150
+F 0 "#PWR039" H 11600 3900 50  0001 C CNN
+F 1 "GND" H 11600 4000 50  0000 C CNN
+F 2 "" H 11600 4150 50  0001 C CNN
+F 3 "" H 11600 4150 50  0001 C CNN
+	1    11600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR033
+U 1 1 5961CF09
+P 10500 2800
+F 0 "#PWR033" H 10500 2550 50  0001 C CNN
+F 1 "GND" H 10500 2650 50  0000 C CNN
+F 2 "" H 10500 2800 50  0001 C CNN
+F 3 "" H 10500 2800 50  0001 C CNN
+	1    10500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C23
+U 1 1 5961CF0F
+P 10500 2650
+F 0 "C23" H 10510 2720 50  0000 L CNN
+F 1 "10uF" H 10513 2584 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 10500 2650 50  0001 C CNN
+F 3 "" H 10500 2650 50  0001 C CNN
+F 4 "50V" H 10596 2526 31  0000 C CNN "Field4"
+F 5 "1210" H 10596 2484 31  0000 C CNN "Field5"
+	1    10500 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 20500 2750 0    50   ~ 0
+Vout\n0-25V\n0-3A
+$Comp
+L dc-power-supply-rescue:GND #PWR066
+U 1 1 5961CF26
+P 16000 5450
+F 0 "#PWR066" H 16000 5200 50  0001 C CNN
+F 1 "GND" H 16000 5300 50  0000 C CNN
+F 2 "" H 16000 5450 50  0001 C CNN
+F 3 "" H 16000 5450 50  0001 C CNN
+	1    16000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR078
+U 1 1 5961CF36
+P 18350 5450
+F 0 "#PWR078" H 18350 5200 50  0001 C CNN
+F 1 "GND" H 18350 5300 50  0000 C CNN
+F 2 "" H 18350 5450 50  0001 C CNN
+F 3 "" H 18350 5450 50  0001 C CNN
+	1    18350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR075
+U 1 1 5961CF51
+P 17450 7000
+F 0 "#PWR075" H 17450 6750 50  0001 C CNN
+F 1 "GND" H 17450 6850 50  0000 C CNN
+F 2 "" H 17450 7000 50  0001 C CNN
+F 3 "" H 17450 7000 50  0001 C CNN
+	1    17450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR082
+U 1 1 5961CF5F
+P 18950 5400
+F 0 "#PWR082" H 18950 5150 50  0001 C CNN
+F 1 "GND" H 18950 5250 50  0000 C CNN
+F 2 "" H 18950 5400 50  0001 C CNN
+F 3 "" H 18950 5400 50  0001 C CNN
+	1    18950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:D_Schottky_Small_ALT D6
+U 1 1 5961CF79
+P 18550 4000
+F 0 "D6" H 18500 4080 50  0000 L CNN
+F 1 "B140-13-F" H 18270 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 18550 4000 50  0001 C CNN
+F 3 "" V 18550 4000 50  0001 C CNN
+	1    18550 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR074
+U 1 1 5961CF8E
+P 16900 7000
+F 0 "#PWR074" H 16900 6750 50  0001 C CNN
+F 1 "GND" H 16900 6850 50  0000 C CNN
+F 2 "" H 16900 7000 50  0001 C CNN
+F 3 "" H 16900 7000 50  0001 C CNN
+	1    16900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LTC3632EDD U12
+U 1 1 5961CFF0
+P 16300 1850
+F 0 "U12" H 16010 2370 50  0000 C CNN
+F 1 "LTC3632EDD" H 16170 2300 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 16750 2450 60  0001 C CNN
+F 3 "" H 16750 2450 60  0001 C CNN
+	1    16300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R35
+U 1 1 5961CFF7
+P 15650 2150
+F 0 "R35" H 15680 2170 50  0000 L CNN
+F 1 "10k" H 15680 2110 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15650 2150 50  0001 C CNN
+F 3 "" H 15650 2150 50  0001 C CNN
+	1    15650 2150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 15750 1850
+NoConn ~ 15750 1950
+$Comp
+L dc-power-supply-rescue:GND #PWR056
+U 1 1 5961D000
+P 14750 2150
+F 0 "#PWR056" H 14750 1900 50  0001 C CNN
+F 1 "GND" H 14750 2000 50  0000 C CNN
+F 2 "" H 14750 2150 50  0001 C CNN
+F 3 "" H 14750 2150 50  0001 C CNN
+	1    14750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R38
+U 1 1 5961D006
+P 17000 2150
+F 0 "R38" H 17030 2170 50  0000 L CNN
+F 1 "806k" H 17030 2110 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17000 2150 50  0001 C CNN
+F 3 "" H 17000 2150 50  0001 C CNN
+F 4 "1%" H 17120 2050 31  0000 C CNN "Field4"
+	1    17000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:L_Small L5
+U 1 1 5961D00D
+P 17100 1550
+F 0 "L5" H 17130 1590 50  0000 L CNN
+F 1 "470uH" H 17130 1510 50  0000 L CNN
+F 2 "Resistors_SMD:R_1210" H 17100 1550 50  0001 C CNN
+F 3 "" H 17100 1550 50  0001 C CNN
+F 4 "LQH32CN471K23L" V 17070 1570 31  0000 C CNN "Field4"
+F 5 "muRata" V 17030 1550 31  0000 C CNN "Field5"
+	1    17100 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R42
+U 1 1 5961D014
+P 17300 2150
+F 0 "R42" H 17330 2170 50  0000 L CNN
+F 1 "280k" H 17330 2110 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17300 2150 50  0001 C CNN
+F 3 "" H 17300 2150 50  0001 C CNN
+F 4 "1%" H 17420 2050 31  0000 C CNN "Field4"
+	1    17300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R41
+U 1 1 5961D01B
+P 17300 1750
+F 0 "R41" H 17330 1770 50  0000 L CNN
+F 1 "1.47M" H 17330 1710 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17300 1750 50  0001 C CNN
+F 3 "" H 17300 1750 50  0001 C CNN
+F 4 "1%" H 17430 1650 31  0000 C CNN "Field4"
+	1    17300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C46
+U 1 1 5961D022
+P 17700 1950
+F 0 "C46" H 17710 2020 50  0000 L CNN
+F 1 "10μF" H 17710 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 17700 1950 50  0001 C CNN
+F 3 "" H 17700 1950 50  0001 C CNN
+F 4 "6.3V" H 17800 1800 31  0000 C CNN "Field4"
+	1    17700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R46
+U 1 1 5961D029
+P 17900 2400
+F 0 "R46" V 17930 2390 50  0000 C TNN
+F 1 "549" V 17860 2390 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17900 2400 50  0001 C CNN
+F 3 "" H 17900 2400 50  0001 C CNN
+F 4 "1%" V 17780 2380 31  0000 C CNN "Field4"
+	1    17900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR077
+U 1 1 5961D030
+P 17900 1600
+F 0 "#PWR077" H 17900 1350 50  0001 C CNN
+F 1 "GND" H 17900 1450 50  0000 C CNN
+F 2 "" H 17900 1600 50  0001 C CNN
+F 3 "" H 17900 1600 50  0001 C CNN
+	1    17900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:Q_NPN_BCE Q4
+U 1 1 5961D036
+P 18300 2300
+F 0 "Q4" V 18240 2430 50  0000 L CNN
+F 1 "FMMT493TA" V 18310 2440 31  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 18500 2400 50  0001 C CNN
+F 3 "" H 18300 2300 50  0001 C CNN
+	1    18300 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR080
+U 1 1 5961D03D
+P 18550 1900
+F 0 "#PWR080" H 18550 1650 50  0001 C CNN
+F 1 "GND" H 18550 1750 50  0000 C CNN
+F 2 "" H 18550 1900 50  0001 C CNN
+F 3 "" H 18550 1900 50  0001 C CNN
+	1    18550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C32
+U 1 1 5961D043
+P 14150 1850
+F 0 "C32" H 14160 1920 50  0000 L CNN
+F 1 "10uF" H 14160 1770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 14150 1850 50  0001 C CNN
+F 3 "" H 14150 1850 50  0001 C CNN
+	1    14150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR051
+U 1 1 5961D04A
+P 14150 1950
+F 0 "#PWR051" H 14150 1700 50  0001 C CNN
+F 1 "GND" H 14150 1800 50  0000 C CNN
+F 2 "" H 14150 1950 50  0001 C CNN
+F 3 "" H 14150 1950 50  0001 C CNN
+	1    14150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:Q_PNP_BCE Q3
+U 1 1 5961D050
+P 14750 1750
+F 0 "Q3" V 14710 1860 50  0000 L CNN
+F 1 "MMBT3906-7-F" V 14650 1870 31  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 14950 1850 50  0001 C CNN
+F 3 "" H 14750 1750 50  0001 C CNN
+	1    14750 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R31
+U 1 1 5961D057
+P 14750 2050
+F 0 "R31" H 14780 2070 50  0000 L CNN
+F 1 "1k" H 14780 2010 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14750 2050 50  0001 C CNN
+F 3 "" H 14750 2050 50  0001 C CNN
+	1    14750 2050
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 950  0    60   ~ 12
+30V Supply
+Text Notes 9400 950  0    60   ~ 12
+Power Supply Regulator (Mixed Mode)
+$Comp
+L dc-power-supply-rescue:GND #PWR017
+U 1 1 5965CEFD
+P 5550 6950
+F 0 "#PWR017" H 5550 6700 50  0001 C CNN
+F 1 "GND" H 5550 6800 50  0000 C CNN
+F 2 "" H 5550 6950 50  0001 C CNN
+F 3 "" H 5550 6950 50  0001 C CNN
+	1    5550 6950
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 5650 0    60   ~ 12
+12V Supply (100mA)
+$Comp
+L dc-power-supply-rescue:LT8607 U2
+U 1 1 59664AF1
+P 3450 4900
+F 0 "U2" H 3750 6400 60  0000 C CNN
+F 1 "LT8607" H 3850 6300 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 3900 5650 60  0001 C CNN
+F 3 "" H 3900 5650 60  0001 C CNN
+	1    3450 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 3850
+$Comp
+L dc-power-supply-rescue:GND #PWR010
+U 1 1 59664B05
+P 3150 4000
+F 0 "#PWR010" H 3150 3750 50  0001 C CNN
+F 1 "GND" H 3150 3850 50  0000 C CNN
+F 2 "" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0001 C CNN
+	1    3150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C12
+U 1 1 59664B0B
+P 4650 3750
+F 0 "C12" H 4660 3820 50  0000 L CNN
+F 1 "0.1μF" H 4750 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4650 3750 50  0001 C CNN
+F 3 "" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R1
+U 1 1 59664B11
+P 3450 4600
+F 0 "R1" H 3480 4620 50  0000 L CNN
+F 1 "18.2k" H 3480 4560 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 4600 50  0001 C CNN
+F 3 "" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C8
+U 1 1 59664B17
+P 3200 4600
+F 0 "C8" H 3210 4670 50  0000 L CNN
+F 1 "10nF" H 3210 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3200 4600 50  0001 C CNN
+F 3 "" H 3200 4600 50  0001 C CNN
+	1    3200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C1
+U 1 1 59664B1D
+P 2950 4600
+F 0 "C1" H 2960 4670 50  0000 L CNN
+F 1 "1μF" H 2960 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2950 4600 50  0001 C CNN
+F 3 "" H 2950 4600 50  0001 C CNN
+	1    2950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:L_Small L1
+U 1 1 59664B24
+P 5150 3850
+F 0 "L1" H 5180 3890 50  0000 L CNN
+F 1 "2.2uH" H 5180 3810 50  0000 L CNN
+F 2 "dc-power-supply:XFL3012" H 5150 3850 50  0001 C CNN
+F 3 "" H 5150 3850 50  0001 C CNN
+F 4 "XFL3012-222ME" V 5100 3900 31  0000 C CNN "Product"
+	1    5150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R10
+U 1 1 59664B2A
+P 5350 4050
+F 0 "R10" H 5380 4070 50  0000 L CNN
+F 1 "100k" H 5380 4010 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 4050 50  0001 C CNN
+F 3 "" H 5350 4050 50  0001 C CNN
+	1    5350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R4
+U 1 1 59664B30
+P 4600 4650
+F 0 "R4" H 4630 4670 50  0000 L CNN
+F 1 "309k" H 4630 4610 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 4650 50  0001 C CNN
+F 3 "" H 4600 4650 50  0001 C CNN
+	1    4600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C15
+U 1 1 59664B5D
+P 5100 4450
+F 0 "C15" V 5175 4265 50  0000 L CNN
+F 1 "10pF" V 5174 4492 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5100 4450 50  0001 C CNN
+F 3 "" H 5100 4450 50  0001 C CNN
+	1    5100 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R7
+U 1 1 59664B64
+P 5100 4650
+F 0 "R7" V 5130 4640 50  0000 C TNN
+F 1 "1M" V 5060 4640 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 4650 50  0001 C CNN
+F 3 "" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR012
+U 1 1 59664B78
+P 4050 4900
+F 0 "#PWR012" H 4050 4650 50  0001 C CNN
+F 1 "GND" H 4050 4750 50  0000 C CNN
+F 2 "" H 4050 4900 50  0001 C CNN
+F 3 "" H 4050 4900 50  0001 C CNN
+	1    4050 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 3150 0    60   ~ 12
+3.3V Supply (2 Mhz Step Down, 750mA)
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR019
+U 1 1 59669510
+P 6050 3850
+F 0 "#PWR019" H 6050 3700 50  0001 C CNN
+F 1 "+3.3V" H 6050 3990 50  0000 C CNN
+F 2 "" H 6050 3850 50  0001 C CNN
+F 3 "" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR026
+U 1 1 596B470F
+P 7350 12850
+F 0 "#PWR026" H 7350 12700 50  0001 C CNN
+F 1 "+3.3V" H 7350 12990 50  0000 C CNN
+F 2 "" H 7350 12850 50  0001 C CNN
+F 3 "" H 7350 12850 50  0001 C CNN
+	1    7350 12850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR25
+U 1 1 596B588A
+P 7150 12950
+AR Path="/596B588A" Ref="#PWR25"  Part="1" 
+AR Path="/59615D6E/596B588A" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 7150 12800 50  0001 C CNN
+F 1 "+12V" H 7150 13090 50  0000 C CNN
+F 2 "" H 7150 12950 50  0001 C CNN
+F 3 "" H 7150 12950 50  0001 C CNN
+	1    7150 12950
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 12200 0    60   ~ 12
+UI Board Connector
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR031
+U 1 1 596CCBF6
+P 10250 12850
+F 0 "#PWR031" H 10250 12700 50  0001 C CNN
+F 1 "+3.3V" H 10250 12990 50  0000 C CNN
+F 2 "" H 10250 12850 50  0001 C CNN
+F 3 "" H 10250 12850 50  0001 C CNN
+	1    10250 12850
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 10050 12950
+$Comp
+L dc-power-supply-rescue:CONN_02X07 J2
+U 1 1 5965DFCE
+P 7800 13050
+F 0 "J2" H 7800 13450 50  0000 C CNN
+F 1 "14 Pin Connector" H 7800 12650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 7800 11850 50  0001 C CNN
+F 3 "" H 7800 11850 50  0001 C CNN
+	1    7800 13050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR027
+U 1 1 5966573D
+P 7450 12450
+F 0 "#PWR027" H 7450 12200 50  0001 C CNN
+F 1 "GND" H 7450 12300 50  0000 C CNN
+F 2 "" H 7450 12450 50  0001 C CNN
+F 3 "" H 7450 12450 50  0001 C CNN
+	1    7450 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR030
+U 1 1 59665FC9
+P 10150 12450
+F 0 "#PWR030" H 10150 12200 50  0001 C CNN
+F 1 "GND" H 10150 12300 50  0000 C CNN
+F 2 "" H 10150 12450 50  0001 C CNN
+F 3 "" H 10150 12450 50  0001 C CNN
+	1    10150 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR021
+U 1 1 5968443C
+P 6950 3950
+F 0 "#PWR021" H 6950 3800 50  0001 C CNN
+F 1 "+3.3V" H 6950 4090 50  0000 C CNN
+F 2 "" H 6950 3950 50  0001 C CNN
+F 3 "" H 6950 3950 50  0001 C CNN
+	1    6950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R13
+U 1 1 59684442
+P 6950 4100
+F 0 "R13" H 6980 4120 50  0000 L CNN
+F 1 "2.2k" H 6980 4060 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6950 4100 50  0001 C CNN
+F 3 "" H 6950 4100 50  0001 C CNN
+	1    6950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LED_ALT D2
+U 1 1 5968444B
+P 6950 4400
+F 0 "D2" H 6950 4500 50  0000 C CNN
+F 1 "Green" H 6800 4250 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 6950 4400 50  0001 C CNN
+F 3 "" H 6950 4400 50  0001 C CNN
+	1    6950 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR022
+U 1 1 59684453
+P 6950 4600
+F 0 "#PWR022" H 6950 4350 50  0001 C CNN
+F 1 "GND" H 6950 4450 50  0000 C CNN
+F 2 "" H 6950 4600 50  0001 C CNN
+F 3 "" H 6950 4600 50  0001 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 6500 3550 0    60   ~ 12
+Power On Led (3.3V)
+$Comp
+L dc-power-supply-rescue:R_Small R15
+U 1 1 59684C7F
+P 6950 6350
+F 0 "R15" H 6980 6370 50  0000 L CNN
+F 1 "8.2k" H 6980 6310 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6950 6350 50  0001 C CNN
+F 3 "" H 6950 6350 50  0001 C CNN
+	1    6950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LED_ALT D4
+U 1 1 59684C87
+P 6950 6650
+F 0 "D4" H 6950 6750 50  0000 C CNN
+F 1 "Green" H 6800 6500 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 6950 6650 50  0001 C CNN
+F 3 "" H 6950 6650 50  0001 C CNN
+	1    6950 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR024
+U 1 1 59684C8E
+P 6950 6850
+F 0 "#PWR024" H 6950 6600 50  0001 C CNN
+F 1 "GND" H 6950 6700 50  0000 C CNN
+F 2 "" H 6950 6850 50  0001 C CNN
+F 3 "" H 6950 6850 50  0001 C CNN
+	1    6950 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 6500 5800 0    60   ~ 12
+Power On Led (12V)
+Text Notes 2740 2710 0    60   ~ 0
+Note: Consider adding bleeder resistor and choke
+Text Notes 8750 12200 0    60   ~ 12
+Control Board Connector
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR04
+U 1 1 5965AD48
+P 2600 15350
+F 0 "#PWR04" H 2600 15200 50  0001 C CNN
+F 1 "+3.3V" H 2600 15490 50  0000 C CNN
+F 2 "" H 2600 15350 50  0001 C CNN
+F 3 "" H 2600 15350 50  0001 C CNN
+	1    2600 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT8612EUDE U5
+U 1 1 5966B449
+P 11550 4650
+F 0 "U5" H 11840 7010 50  0000 C CNN
+F 1 "LT8612EUDE" H 12020 6940 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_3x6mm_Pitch0.5mm" H 12000 6500 60  0001 C CNN
+F 3 "" H 12000 6500 60  0001 C CNN
+	1    11550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT3081ER U14
+U 1 1 5967BB7E
+P 16900 5400
+F 0 "U14" H 16630 5950 60  0000 C CNN
+F 1 "LT3081ER" H 16760 5850 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-7_Vertical_StaggeredType2" H 17350 6000 60  0001 C CNN
+F 3 "" H 17350 6000 60  0001 C CNN
+	1    16900 5400
+	1    0    0    -1  
+$EndComp
+Text Notes 900  14950 0    60   ~ 12
+Kicad Power Flag Configuration
+$Comp
+L dc-power-supply-rescue:ADuM262N U7
+U 1 1 596AB928
+P 13000 11750
+F 0 "U7" H 12600 12250 50  0000 L CNN
+F 1 "ADuM262N" H 13000 12250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 12500 12050 50  0001 C CNN
+F 3 "" H 12500 12050 50  0001 C CNN
+	1    13000 11750
+	1    0    0    -1  
+$EndComp
+Text Notes 1350 950  0    60   ~ 12
+AC Transformer Connector
+Text Label 2150 1500 0    60   ~ 0
+AC+
+Text Label 2150 1700 0    60   ~ 0
+AC-
+Text Notes 21450 2200 0    60   ~ 12
+DC Output Power Connector
+$Comp
+L dc-power-supply-rescue:GND #PWR084
+U 1 1 596A879B
+P 20500 3050
+F 0 "#PWR084" H 20500 2800 50  0001 C CNN
+F 1 "GND" H 20500 2900 50  0000 C CNN
+F 2 "" H 20500 3050 50  0001 C CNN
+F 3 "" H 20500 3050 50  0001 C CNN
+	1    20500 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 16350 11950 2    39   Input ~ 0
+TEMP
+Text GLabel 16350 12050 2    39   Input ~ 0
+IMON
+Text GLabel 10750 13550 2    39   Input ~ 0
+SSP1_MISO
+Text GLabel 10750 13650 2    39   Output ~ 0
+SSP1_MOSI
+Text GLabel 10750 13450 2    39   Output ~ 0
+SSP1_SCK
+$Comp
+L dc-power-supply-rescue:GND #PWR046
+U 1 1 596D452A
+P 12450 12150
+F 0 "#PWR046" H 12450 11900 50  0001 C CNN
+F 1 "GND" H 12450 12000 50  0000 C CNN
+F 2 "" H 12450 12150 50  0001 C CNN
+F 3 "" H 12450 12150 50  0001 C CNN
+	1    12450 12150
+	1    0    0    -1  
+$EndComp
+Text GLabel 12300 12050 0    39   Output ~ 0
+SSP1_MISO
+Text GLabel 12300 11550 0    39   Input ~ 0
+SSP1_MOSI
+Text GLabel 12300 11750 0    39   Input ~ 0
+SSP1_SSEL_ADC
+Text GLabel 12300 11650 0    39   Input ~ 0
+SSP1_SCK
+Text GLabel 9350 13650 0    39   Output ~ 0
+SSP1_SSEL_DAC
+Text GLabel 9350 13550 0    39   Output ~ 0
+SSP1_SSEL_ADC
+Text GLabel 12300 11850 0    39   Input ~ 0
+SSP1_SSEL_DAC
+Text GLabel 12300 11950 0    39   Input ~ 0
+PSU_ON/OFF
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR071
+U 1 1 596FBD36
+P 16775 11725
+F 0 "#PWR071" H 16775 11575 50  0001 C CNN
+F 1 "+3.3V" H 16775 11865 50  0000 C CNN
+F 2 "" H 16775 11725 50  0001 C CNN
+F 3 "" H 16775 11725 50  0001 C CNN
+	1    16775 11725
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR053
+U 1 1 596FC110
+P 14300 12100
+F 0 "#PWR053" H 14300 11850 50  0001 C CNN
+F 1 "GND" H 14300 11950 50  0000 C CNN
+F 2 "" H 14300 12100 50  0001 C CNN
+F 3 "" H 14300 12100 50  0001 C CNN
+	1    14300 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR049
+U 1 1 596FD1BB
+P 13550 12150
+F 0 "#PWR049" H 13550 11900 50  0001 C CNN
+F 1 "GND" H 13550 12000 50  0000 C CNN
+F 2 "" H 13550 12150 50  0001 C CNN
+F 3 "" H 13550 12150 50  0001 C CNN
+	1    13550 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR045
+U 1 1 596FDC2C
+P 12450 11450
+F 0 "#PWR045" H 12450 11300 50  0001 C CNN
+F 1 "+3.3V" H 12450 11590 50  0000 C CNN
+F 2 "" H 12450 11450 50  0001 C CNN
+F 3 "" H 12450 11450 50  0001 C CNN
+	1    12450 11450
+	1    0    0    -1  
+$EndComp
+Text GLabel 16250 13700 2    39   Output ~ 0
+ISET
+Text GLabel 16250 13800 2    39   Output ~ 0
+VSET
+$Comp
+L dc-power-supply-rescue:GND #PWR055
+U 1 1 597050F0
+P 14400 14450
+F 0 "#PWR055" H 14400 14200 50  0001 C CNN
+F 1 "GND" H 14400 14300 50  0000 C CNN
+F 2 "" H 14400 14450 50  0001 C CNN
+F 3 "" H 14400 14450 50  0001 C CNN
+	1    14400 14450
+	1    0    0    -1  
+$EndComp
+Text Notes 11500 10500 0    60   ~ 12
+Power Control/Monitor Lines (ADC/DAC)
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR048
+U 1 1 5971973E
+P 13550 11450
+F 0 "#PWR048" H 13550 11300 50  0001 C CNN
+F 1 "+3.3V" H 13550 11590 50  0000 C CNN
+F 2 "" H 13550 11450 50  0001 C CNN
+F 3 "" H 13550 11450 50  0001 C CNN
+	1    13550 11450
+	1    0    0    -1  
+$EndComp
+Text GLabel 13750 12550 3    39   Output ~ 0
+PSU_ON/OFF
+Text GLabel 10950 6600 0    39   Input ~ 0
+VSET
+Text GLabel 10950 5350 0    39   Input ~ 0
+ISET
+Text GLabel 9350 13450 0    39   Output ~ 0
+PSU_ON/OFF
+$Comp
+L dc-power-supply-rescue:CONN_02X10 J3
+U 1 1 596CDCA9
+P 9800 13200
+F 0 "J3" H 9800 13750 50  0000 C CNN
+F 1 "20 Pin Connector" H 9800 12650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm" H 9800 12000 50  0001 C CNN
+F 3 "" H 9800 12000 50  0001 C CNN
+	1    9800 13200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CONN_01X02_MALE J4
+U 1 1 596F2FEE
+P 22300 2900
+F 0 "J4" H 22300 3075 50  0000 C CNN
+F 1 "2 Pin Terminal" H 22300 2650 50  0000 C CNN
+F 2 "dc-power-supply:2_tab_250" H 22300 3000 50  0001 C CNN
+F 3 "" H 22300 3000 50  0001 C CNN
+	1    22300 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:CONN_01X02_MALE J1
+U 1 1 596F5234
+P 1850 1600
+F 0 "J1" H 1850 1775 50  0000 C CNN
+F 1 "2 Pin Terminal" H 1850 1350 50  0000 C CNN
+F 2 "dc-power-supply:2_tab_250" H 1850 1700 50  0001 C CNN
+F 3 "" H 1850 1700 50  0001 C CNN
+	1    1850 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 14200 0    60   ~ 0
+MISSING\nOver Current interrupt line
+$Comp
+L dc-power-supply-rescue:LTC2602 U11
+U 1 1 596C7A98
+P 15250 13900
+F 0 "U11" H 14650 14225 50  0000 L BNN
+F 1 "LTC2602" H 15525 14225 50  0000 L BNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 15250 13900 50  0001 L BNN
+F 3 "" H 15250 13900 50  0001 L BNN
+	1    15250 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR054
+U 1 1 596C9090
+P 14400 13650
+F 0 "#PWR054" H 14400 13500 50  0001 C CNN
+F 1 "+3.3V" H 14400 13790 50  0000 C CNN
+F 2 "" H 14400 13650 50  0001 C CNN
+F 3 "" H 14400 13650 50  0001 C CNN
+	1    14400 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR072
+U 1 1 596CF716
+P 17000 11450
+F 0 "#PWR072" H 17000 11200 50  0001 C CNN
+F 1 "GND" H 17000 11300 50  0000 C CNN
+F 2 "" H 17000 11450 50  0001 C CNN
+F 3 "" H 17000 11450 50  0001 C CNN
+	1    17000 11450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR013
+U 1 1 596C1986
+P 4450 8650
+F 0 "#PWR013" H 4450 8400 50  0001 C CNN
+F 1 "GND" H 4450 8500 50  0000 C CNN
+F 2 "" H 4450 8650 50  0001 C CNN
+F 3 "" H 4450 8650 50  0001 C CNN
+	1    4450 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C43
+U 1 1 596D050A
+P 17000 11925
+F 0 "C43" H 17010 11995 50  0000 L CNN
+F 1 "0.1μF" H 17010 11845 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 17000 11925 50  0001 C CNN
+F 3 "" H 17000 11925 50  0001 C CNN
+	1    17000 11925
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C42
+U 1 1 596D0510
+P 16775 11925
+F 0 "C42" H 16785 11995 50  0000 L CNN
+F 1 "10μF" H 16785 11845 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16775 11925 50  0001 C CNN
+F 3 "" H 16775 11925 50  0001 C CNN
+	1    16775 11925
+	1    0    0    -1  
+$EndComp
+Text GLabel 11350 2800 0    39   Input ~ 0
+PSU_ON/OFF
+Text Notes 2700 7625 0    60   ~ 12
+4V Precision Supply (4.096V, 20mA)
+$Comp
+L dc-power-supply-rescue:+4V #PWR015
+U 1 1 596D8C1C
+P 4850 8250
+F 0 "#PWR015" H 4850 8100 50  0001 C CNN
+F 1 "+4V" H 4850 8390 50  0000 C CNN
+F 2 "" H 4850 8250 50  0001 C CNN
+F 3 "" H 4850 8250 50  0001 C CNN
+	1    4850 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LTC2486 U9
+U 1 1 596CD872
+P 14350 12250
+F 0 "U9" H 14650 13175 50  0000 L BNN
+F 1 "LTC2486" H 15525 13175 50  0000 L BNN
+F 2 "Housings_DFN_QFN:DFN-14-1EP_3x4mm_Pitch0.5mm" H 14350 13050 50  0001 L BNN
+F 3 "" H 14350 13050 50  0001 L BNN
+	1    14350 12250
+	1    0    0    -1  
+$EndComp
+Text GLabel 16350 12150 2    39   Input ~ 0
+VOUT
+$Comp
+L dc-power-supply-rescue:R_Small R43
+U 1 1 5979FF3B
+P 17450 6850
+F 0 "R43" H 17480 6870 50  0000 L CNN
+F 1 "4.99k" H 17480 6810 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17450 6850 50  0001 C CNN
+F 3 "" H 17450 6850 50  0001 C CNN
+F 4 "1%" H 17570 6750 31  0000 C CNN "Field4"
+	1    17450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R27
+U 1 1 59713FFE
+P 13550 5700
+F 0 "R27" H 13580 5720 50  0000 L CNN
+F 1 "6k" H 13580 5660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13550 5700 50  0001 C CNN
+F 3 "" H 13550 5700 50  0001 C CNN
+F 4 "1%" H 13650 5600 31  0000 C CNN "Field4"
+	1    13550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:BC847 Q1
+U 1 1 59734A11
+P 13250 5800
+F 0 "Q1" H 13450 5875 50  0000 L CNN
+F 1 "BC847" H 13450 5800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 13450 5725 50  0001 L CIN
+F 3 "" H 13250 5800 50  0001 L CNN
+	1    13250 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R22
+U 1 1 597356E5
+P 12950 5450
+F 0 "R22" V 12980 5440 50  0000 C TNN
+F 1 "1k" V 12910 5440 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12950 5450 50  0001 C CNN
+F 3 "" H 12950 5450 50  0001 C CNN
+F 4 "1%" V 12830 5440 31  0000 C CNN "Field4"
+	1    12950 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C28
+U 1 1 59735D59
+P 12650 5650
+F 0 "C28" H 12660 5720 50  0000 L CNN
+F 1 "1nF" H 12660 5570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 12650 5650 50  0001 C CNN
+F 3 "" H 12650 5650 50  0001 C CNN
+F 4 "50V" H 12720 5510 31  0000 C CNN "Field4"
+	1    12650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR041
+U 1 1 59738BF3
+P 12100 5950
+F 0 "#PWR041" H 12100 5700 50  0001 C CNN
+F 1 "GND" H 12100 5800 50  0000 C CNN
+F 2 "" H 12100 5950 50  0001 C CNN
+F 3 "" H 12100 5950 50  0001 C CNN
+	1    12100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR043
+U 1 1 59738D5B
+P 12100 7000
+F 0 "#PWR043" H 12100 6750 50  0001 C CNN
+F 1 "GND" H 12100 6850 50  0000 C CNN
+F 2 "" H 12100 7000 50  0001 C CNN
+F 3 "" H 12100 7000 50  0001 C CNN
+	1    12100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R20
+U 1 1 5973C94F
+P 11650 5550
+F 0 "R20" V 11550 5550 50  0000 C TNN
+F 1 "30.9k" V 11550 5550 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11650 5550 50  0001 C CNN
+F 3 "" H 11650 5550 50  0001 C CNN
+F 4 "1%" V 11470 5550 31  0000 C CNN "Field4"
+	1    11650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C26
+U 1 1 5973CE32
+P 11400 5450
+F 0 "C26" H 11412 5513 50  0000 L CNN
+F 1 "1uF" H 11470 5450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11400 5450 50  0001 C CNN
+F 3 "" H 11400 5450 50  0001 C CNN
+F 4 "25V" H 11520 5390 31  0000 C CNN "Field4"
+	1    11400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R24
+U 1 1 59740EFC
+P 12950 7350
+F 0 "R24" V 12980 7340 50  0000 C TNN
+F 1 "52.3k" V 12910 7340 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12950 7350 50  0001 C CNN
+F 3 "" H 12950 7350 50  0001 C CNN
+F 4 "1%" V 12820 7340 31  0000 C CNN "Field4"
+	1    12950 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR037
+U 1 1 59744066
+P 11400 5600
+F 0 "#PWR037" H 11400 5350 50  0001 C CNN
+F 1 "GND" H 11400 5450 50  0000 C CNN
+F 2 "" H 11400 5600 50  0001 C CNN
+F 3 "" H 11400 5600 50  0001 C CNN
+	1    11400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R21
+U 1 1 597447A2
+P 11650 6800
+F 0 "R21" V 11550 6800 50  0000 C TNN
+F 1 "10k" V 11550 6800 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11650 6800 50  0001 C CNN
+F 3 "" H 11650 6800 50  0001 C CNN
+F 4 "1%" V 11460 6800 31  0000 C CNN "Field4"
+	1    11650 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR038
+U 1 1 5974514E
+P 11400 6850
+F 0 "#PWR038" H 11400 6600 50  0001 C CNN
+F 1 "GND" H 11400 6700 50  0000 C CNN
+F 2 "" H 11400 6850 50  0001 C CNN
+F 3 "" H 11400 6850 50  0001 C CNN
+	1    11400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT1013DS U6
+U 1 1 597311EE
+P 12200 5450
+F 0 "U6" H 12200 5650 50  0000 L CNN
+F 1 "LT1013DS" H 12150 5250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12200 5450 50  0001 C CNN
+F 3 "" H 12200 5450 50  0001 C CNN
+	1    12200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT1013DS U6
+U 2 1 59731471
+P 12200 6700
+F 0 "U6" H 12200 6900 50  0000 L CNN
+F 1 "LT1013DS" H 12150 6500 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12200 6700 50  0001 C CNN
+F 3 "" H 12200 6700 50  0001 C CNN
+	2    12200 6700
+	1    0    0    -1  
+$EndComp
+Text Label 21700 2800 0    39   ~ 0
+VOUT+
+Text Label 21700 3000 0    39   ~ 0
+VOUT-
+$Comp
+L dc-power-supply-rescue:320S14 U8
+U 1 1 59761BEB
+P 14300 6100
+F 0 "U8" H 14050 6545 60  0000 C CNN
+F 1 "320S14" H 14165 6450 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 14200 6000 60  0001 C CNN
+F 3 "" H 14200 6000 60  0001 C CNN
+	1    14300 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13800 6200
+NoConn ~ 13800 6300
+NoConn ~ 13800 6400
+NoConn ~ 13800 6500
+NoConn ~ 14800 6200
+$Comp
+L dc-power-supply-rescue:GND #PWR060
+U 1 1 59725678
+P 15350 7800
+F 0 "#PWR060" H 15350 7550 50  0001 C CNN
+F 1 "GND" H 15350 7650 50  0000 C CNN
+F 2 "" H 15350 7800 50  0001 C CNN
+F 3 "" H 15350 7800 50  0001 C CNN
+	1    15350 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR062
+U 1 1 5972567E
+P 15350 8850
+F 0 "#PWR062" H 15350 8600 50  0001 C CNN
+F 1 "GND" H 15350 8700 50  0000 C CNN
+F 2 "" H 15350 8850 50  0001 C CNN
+F 3 "" H 15350 8850 50  0001 C CNN
+	1    15350 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT1013DS U10
+U 1 1 5972568A
+P 15250 7300
+F 0 "U10" H 15250 7500 50  0000 L CNN
+F 1 "LT1013DS" H 15250 7150 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 15250 7300 50  0001 C CNN
+F 3 "" H 15250 7300 50  0001 C CNN
+	1    15250 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R36
+U 1 1 5972C2BE
+P 15900 7350
+F 0 "R36" H 15930 7370 50  0000 L CNN
+F 1 "4.99k" H 15930 7310 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15900 7350 50  0001 C CNN
+F 3 "" H 15900 7350 50  0001 C CNN
+F 4 "1%" H 16020 7250 31  0000 C CNN "Field4"
+	1    15900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C40
+U 1 1 5972C4D8
+P 16250 7350
+F 0 "C40" H 16260 7420 50  0000 L CNN
+F 1 "100nF" H 16260 7270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16250 7350 50  0001 C CNN
+F 3 "" H 16250 7350 50  0001 C CNN
+F 4 "25V" H 16370 7210 31  0000 C CNN "Field4"
+	1    16250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR064
+U 1 1 5972E07F
+P 15900 7450
+F 0 "#PWR064" H 15900 7200 50  0001 C CNN
+F 1 "GND" H 15900 7300 50  0000 C CNN
+F 2 "" H 15900 7450 50  0001 C CNN
+F 3 "" H 15900 7450 50  0001 C CNN
+	1    15900 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR068
+U 1 1 5972E23E
+P 16250 7450
+F 0 "#PWR068" H 16250 7200 50  0001 C CNN
+F 1 "GND" H 16250 7300 50  0000 C CNN
+F 2 "" H 16250 7450 50  0001 C CNN
+F 3 "" H 16250 7450 50  0001 C CNN
+	1    16250 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 14250 8550 0    39   Output ~ 0
+VOUT
+$Comp
+L dc-power-supply-rescue:GND #PWR065
+U 1 1 59735F52
+P 15900 8700
+F 0 "#PWR065" H 15900 8450 50  0001 C CNN
+F 1 "GND" H 15900 8550 50  0000 C CNN
+F 2 "" H 15900 8700 50  0001 C CNN
+F 3 "" H 15900 8700 50  0001 C CNN
+	1    15900 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR069
+U 1 1 59735F58
+P 16250 8700
+F 0 "#PWR069" H 16250 8450 50  0001 C CNN
+F 1 "GND" H 16250 8550 50  0000 C CNN
+F 2 "" H 16250 8700 50  0001 C CNN
+F 3 "" H 16250 8700 50  0001 C CNN
+	1    16250 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R39
+U 1 1 59739FC5
+P 17000 8300
+F 0 "R39" V 17030 8290 50  0000 C TNN
+F 1 "9.09k" V 16960 8290 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17000 8300 50  0001 C CNN
+F 3 "" H 17000 8300 50  0001 C CNN
+F 4 "1%" V 16880 8290 31  0000 C CNN "Field4"
+	1    17000 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R40
+U 1 1 5973A65D
+P 17000 8600
+F 0 "R40" V 17030 8590 50  0000 C TNN
+F 1 "909k" V 16960 8590 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17000 8600 50  0001 C CNN
+F 3 "" H 17000 8600 50  0001 C CNN
+F 4 "1%" V 16880 8590 31  0000 C CNN "Field4"
+	1    17000 8600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14250 7300 0    39   Output ~ 0
+IMON
+$Comp
+L dc-power-supply-rescue:LT3081ER U13
+U 1 1 5967FF46
+P 16900 3100
+F 0 "U13" H 16610 3610 50  0000 C CNN
+F 1 "LT3081ER" H 16720 3540 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-7_Vertical_StaggeredType2" H 17350 3700 60  0001 C CNN
+F 3 "" H 17350 3700 60  0001 C CNN
+	1    16900 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 18400 6700 2    39   Output ~ 0
+TEMP
+$Comp
+L dc-power-supply-rescue:C_Small C47
+U 1 1 5974D7D2
+P 17750 6850
+F 0 "C47" H 17760 6920 50  0000 L CNN
+F 1 "10nF" H 17760 6770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 17750 6850 50  0001 C CNN
+F 3 "" H 17750 6850 50  0001 C CNN
+F 4 "50V" H 17840 6720 31  0000 C CNN "Field4"
+	1    17750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR076
+U 1 1 5974D9C7
+P 17750 7000
+F 0 "#PWR076" H 17750 6750 50  0001 C CNN
+F 1 "GND" H 17750 6850 50  0000 C CNN
+F 2 "" H 17750 7000 50  0001 C CNN
+F 3 "" H 17750 7000 50  0001 C CNN
+	1    17750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C44
+U 1 1 59753E40
+P 16900 4150
+F 0 "C44" H 16910 4220 50  0000 L CNN
+F 1 "10nF" H 16905 4085 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16900 4150 50  0001 C CNN
+F 3 "" H 16900 4150 50  0001 C CNN
+F 4 "50V" H 16985 4030 31  0000 C CNN "Field4"
+	1    16900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR073
+U 1 1 59753E46
+P 16900 4250
+F 0 "#PWR073" H 16900 4000 50  0001 C CNN
+F 1 "GND" H 16900 4100 50  0000 C CNN
+F 2 "" H 16900 4250 50  0001 C CNN
+F 3 "" H 16900 4250 50  0001 C CNN
+	1    16900 4250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 16150 11850
+Text Notes 15550 7050 0    50   ~ 0
+G=1 (Buffer)
+Text Notes 15550 8250 0    50   ~ 0
+G=1000 ( Non-Inverting Amp)
+Text Notes 12400 6400 0    50   ~ 0
+G=6.23 (Voltage multiplier)
+$Comp
+L dc-power-supply-rescue:C_Small C35
+U 1 1 5975FF0B
+P 15200 2950
+F 0 "C35" H 15210 3020 50  0000 L CNN
+F 1 "10uF" H 15210 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 15200 2950 50  0001 C CNN
+F 3 "" H 15200 2950 50  0001 C CNN
+F 4 "50V" H 15295 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 15300 2775 31  0000 C CNN "Field5"
+	1    15200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C36
+U 1 1 597600DB
+P 15500 2950
+F 0 "C36" H 15510 3020 50  0000 L CNN
+F 1 "10uF" H 15510 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 15500 2950 50  0001 C CNN
+F 3 "" H 15500 2950 50  0001 C CNN
+F 4 "50V" H 15595 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 15600 2775 31  0000 C CNN "Field5"
+	1    15500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C37
+U 1 1 597602B6
+P 15800 2950
+F 0 "C37" H 15810 3020 50  0000 L CNN
+F 1 "10uF" H 15810 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 15800 2950 50  0001 C CNN
+F 3 "" H 15800 2950 50  0001 C CNN
+F 4 "50V" H 15895 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 15900 2775 31  0000 C CNN "Field5"
+	1    15800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C39
+U 1 1 59760B4C
+P 16150 2950
+F 0 "C39" H 16160 3020 50  0000 L CNN
+F 1 "10uF" H 16160 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 16150 2950 50  0001 C CNN
+F 3 "" H 16150 2950 50  0001 C CNN
+F 4 "50V" H 16245 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 16250 2775 31  0000 C CNN "Field5"
+	1    16150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C49
+U 1 1 59771507
+P 18100 2950
+F 0 "C49" H 18110 3020 50  0000 L CNN
+F 1 "10uF" H 18110 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18100 2950 50  0001 C CNN
+F 3 "" H 18100 2950 50  0001 C CNN
+F 4 "50V" H 18195 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 18200 2775 31  0000 C CNN "Field5"
+	1    18100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C51
+U 1 1 59771AA3
+P 18400 2950
+F 0 "C51" H 18410 3020 50  0000 L CNN
+F 1 "10uF" H 18410 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18400 2950 50  0001 C CNN
+F 3 "" H 18400 2950 50  0001 C CNN
+F 4 "50V" H 18495 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 18500 2775 31  0000 C CNN "Field5"
+	1    18400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C53
+U 1 1 59771C72
+P 18700 2950
+F 0 "C53" H 18710 3020 50  0000 L CNN
+F 1 "10uF" H 18710 2890 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18700 2950 50  0001 C CNN
+F 3 "" H 18700 2950 50  0001 C CNN
+F 4 "50V" H 18795 2830 31  0000 C CNN "Field4"
+F 5 "1210" H 18800 2775 31  0000 C CNN "Field5"
+	1    18700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C38
+U 1 1 5977C715
+P 16000 5250
+F 0 "C38" H 16010 5320 50  0000 L CNN
+F 1 "10uF" H 16010 5190 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 16000 5250 50  0001 C CNN
+F 3 "" H 16000 5250 50  0001 C CNN
+F 4 "50V" H 16095 5130 31  0000 C CNN "Field4"
+F 5 "1210" H 16100 5075 31  0000 C CNN "Field5"
+	1    16000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R50
+U 1 1 59782851
+P 19250 5100
+F 0 "R50" V 19280 5090 50  0000 C TNN
+F 1 "0.010" V 19210 5090 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 19250 5100 50  0001 C CNN
+F 3 "" H 19250 5100 50  0001 C CNN
+F 4 "1%" V 19130 5080 31  0000 C CNN "Field4"
+F 5 "0805" V 19090 5080 31  0000 C CNN "Field5"
+	1    19250 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R48
+U 1 1 59782B77
+P 18950 5250
+F 0 "R48" H 18980 5270 50  0000 L CNN
+F 1 "10k" H 18980 5210 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 18950 5250 50  0001 C CNN
+F 3 "" H 18950 5250 50  0001 C CNN
+F 4 "1%" H 19050 5160 31  0000 C CNN "Field4"
+F 5 "1206" H 19050 5120 31  0000 C CNN "Field5"
+	1    18950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C48
+U 1 1 59782F4D
+P 18050 5250
+F 0 "C48" H 18060 5320 50  0000 L CNN
+F 1 "10uF" H 18060 5190 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18050 5250 50  0001 C CNN
+F 3 "" H 18050 5250 50  0001 C CNN
+F 4 "50V" H 18145 5130 31  0000 C CNN "Field4"
+F 5 "1210" H 18150 5075 31  0000 C CNN "Field5"
+	1    18050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C50
+U 1 1 5978316B
+P 18350 5250
+F 0 "C50" H 18360 5320 50  0000 L CNN
+F 1 "10uF" H 18360 5190 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18350 5250 50  0001 C CNN
+F 3 "" H 18350 5250 50  0001 C CNN
+F 4 "50V" H 18445 5130 31  0000 C CNN "Field4"
+F 5 "1210" H 18450 5075 31  0000 C CNN "Field5"
+	1    18350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C52
+U 1 1 5978333E
+P 18650 5250
+F 0 "C52" H 18660 5320 50  0000 L CNN
+F 1 "10uF" H 18660 5190 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 18650 5250 50  0001 C CNN
+F 3 "" H 18650 5250 50  0001 C CNN
+F 4 "50V" H 18745 5130 31  0000 C CNN "Field4"
+F 5 "1210" H 18750 5075 31  0000 C CNN "Field5"
+	1    18650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C45
+U 1 1 597867E9
+P 16900 6850
+F 0 "C45" H 16910 6920 50  0000 L CNN
+F 1 "10nF" H 16910 6770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16900 6850 50  0001 C CNN
+F 3 "" H 16900 6850 50  0001 C CNN
+F 4 "50V" H 16990 6720 31  0000 C CNN "Field4"
+	1    16900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R45
+U 1 1 59789198
+P 17700 5250
+F 0 "R45" H 17730 5270 50  0000 L CNN
+F 1 "402" H 17730 5210 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 17700 5250 50  0001 C CNN
+F 3 "" H 17700 5250 50  0001 C CNN
+F 4 "1%" H 17800 5150 31  0000 C CNN "Field4"
+	1    17700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R37
+U 1 1 5978F500
+P 15900 8600
+F 0 "R37" H 15930 8620 50  0000 L CNN
+F 1 "1k" H 15930 8560 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15900 8600 50  0001 C CNN
+F 3 "" H 15900 8600 50  0001 C CNN
+F 4 "1%" H 15970 8500 31  0000 C CNN "Field4"
+	1    15900 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C41
+U 1 1 5978F949
+P 16250 8600
+F 0 "C41" H 16260 8670 50  0000 L CNN
+F 1 "100nF" H 16260 8520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 16250 8600 50  0001 C CNN
+F 3 "" H 16250 8600 50  0001 C CNN
+F 4 "25V" H 16370 8460 31  0000 C CNN "Field4"
+	1    16250 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C5
+U 1 1 59797FFF
+P 3150 3800
+F 0 "C5" H 3160 3870 50  0000 L CNN
+F 1 "4.7μF" H 3160 3720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 3150 3800 50  0001 C CNN
+F 3 "" H 3150 3800 50  0001 C CNN
+F 4 "X7R" H 3260 3650 31  0000 C CNN "Product"
+F 5 "1206" H 3260 3600 31  0000 C CNN "Field5"
+	1    3150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C19
+U 1 1 59799454
+P 5650 4650
+F 0 "C19" H 5660 4720 50  0000 L CNN
+F 1 "22μF" H 5660 4570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5650 4650 50  0001 C CNN
+F 3 "" H 5650 4650 50  0001 C CNN
+F 4 "X7R" H 5760 4500 31  0000 C CNN "Product"
+F 5 "1206" H 5760 4450 31  0000 C CNN "Field5"
+	1    5650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R33
+U 1 1 597A7B49
+P 15050 5700
+F 0 "R33" H 15080 5720 50  0000 L CNN
+F 1 "6k" H 15080 5660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15050 5700 50  0001 C CNN
+F 3 "" H 15050 5700 50  0001 C CNN
+F 4 "1%" H 15150 5600 31  0000 C CNN "Field4"
+	1    15050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R34
+U 1 1 597A804A
+P 15300 5700
+F 0 "R34" H 15330 5720 50  0000 L CNN
+F 1 "6k" H 15330 5660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15300 5700 50  0001 C CNN
+F 3 "" H 15300 5700 50  0001 C CNN
+F 4 "1%" H 15400 5600 31  0000 C CNN "Field4"
+	1    15300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C27
+U 1 1 597B8982
+P 11400 6700
+F 0 "C27" H 11412 6763 50  0000 L CNN
+F 1 "1uF" H 11470 6700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11400 6700 50  0001 C CNN
+F 3 "" H 11400 6700 50  0001 C CNN
+F 4 "25V" H 11520 6640 31  0000 C CNN "Field4"
+	1    11400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C29
+U 1 1 597B9F23
+P 12650 7000
+F 0 "C29" H 12660 7070 50  0000 L CNN
+F 1 "1nF" H 12660 6920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 12650 7000 50  0001 C CNN
+F 3 "" H 12650 7000 50  0001 C CNN
+F 4 "50V" H 12720 6860 31  0000 C CNN "Field4"
+	1    12650 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 1250 0    60   ~ 0
+40V AC
+$Comp
+L dc-power-supply-rescue:PWR_FLAG #FLG04
+U 1 1 5978B4FA
+P 2600 15350
+F 0 "#FLG04" H 2600 15425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 15500 50  0000 C CNN
+F 2 "" H 2600 15350 50  0001 C CNN
+F 3 "" H 2600 15350 50  0001 C CNN
+	1    2600 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:PWR_FLAG #FLG02
+U 1 1 5965CD21
+P 1700 15350
+F 0 "#FLG02" H 1700 15425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 15500 50  0000 C CNN
+F 2 "" H 1700 15350 50  0001 C CNN
+F 3 "" H 1700 15350 50  0001 C CNN
+	1    1700 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR2
+U 1 1 5965CE06
+P 1700 15350
+AR Path="/5965CE06" Ref="#PWR2"  Part="1" 
+AR Path="/59615D6E/5965CE06" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1700 15200 50  0001 C CNN
+F 1 "+12V" H 1700 15490 50  0000 C CNN
+F 2 "" H 1700 15350 50  0001 C CNN
+F 3 "" H 1700 15350 50  0001 C CNN
+	1    1700 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:PWR_FLAG #FLG03
+U 1 1 597CE699
+P 2150 15350
+F 0 "#FLG03" H 2150 15425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2150 15500 50  0000 C CNN
+F 2 "" H 2150 15350 50  0001 C CNN
+F 3 "" H 2150 15350 50  0001 C CNN
+	1    2150 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+4V #PWR03
+U 1 1 597CF034
+P 2150 15350
+F 0 "#PWR03" H 2150 15200 50  0001 C CNN
+F 1 "+4V" H 2150 15490 50  0000 C CNN
+F 2 "" H 2150 15350 50  0001 C CNN
+F 3 "" H 2150 15350 50  0001 C CNN
+	1    2150 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR06
+U 1 1 597B80A0
+P 3000 3650
+AR Path="/597B80A0" Ref="#PWR06"  Part="1" 
+AR Path="/59615D6E/597B80A0" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 3000 3500 50  0001 C CNN
+F 1 "+30V" H 3000 3800 50  0000 C CNN
+F 2 "" H 3250 3700 50  0001 C CNN
+F 3 "" H 3250 3700 50  0001 C CNN
+	1    3000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:PWR_FLAG #FLG01
+U 1 1 5965BD37
+P 1250 15350
+F 0 "#FLG01" H 1250 15425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 15500 50  0000 C CNN
+F 2 "" H 1250 15350 50  0001 C CNN
+F 3 "" H 1250 15350 50  0001 C CNN
+	1    1250 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR01
+U 1 1 597BE1DA
+P 1250 15350
+AR Path="/597BE1DA" Ref="#PWR01"  Part="1" 
+AR Path="/59615D6E/597BE1DA" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1250 15200 50  0001 C CNN
+F 1 "+30V" H 1250 15500 50  0000 C CNN
+F 2 "" H 1500 15400 50  0001 C CNN
+F 3 "" H 1500 15400 50  0001 C CNN
+	1    1250 15350
+	-1   0    0    1   
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR047
+U 1 1 5981624F
+P 13550 5550
+AR Path="/5981624F" Ref="#PWR047"  Part="1" 
+AR Path="/59615D6E/5981624F" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 13550 5400 50  0001 C CNN
+F 1 "+30V" H 13550 5700 50  0000 C CNN
+F 2 "" H 13800 5600 50  0001 C CNN
+F 3 "" H 13800 5600 50  0001 C CNN
+	1    13550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR057
+U 1 1 59816429
+P 15050 5550
+AR Path="/59816429" Ref="#PWR057"  Part="1" 
+AR Path="/59615D6E/59816429" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 15050 5400 50  0001 C CNN
+F 1 "+30V" H 15050 5700 50  0000 C CNN
+F 2 "" H 15300 5600 50  0001 C CNN
+F 3 "" H 15300 5600 50  0001 C CNN
+	1    15050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR058
+U 1 1 598165FC
+P 15300 5550
+AR Path="/598165FC" Ref="#PWR058"  Part="1" 
+AR Path="/59615D6E/598165FC" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 15300 5400 50  0001 C CNN
+F 1 "+30V" H 15300 5700 50  0000 C CNN
+F 2 "" H 15550 5600 50  0001 C CNN
+F 3 "" H 15550 5600 50  0001 C CNN
+	1    15300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C89
+U 1 1 597D0ACA
+P 4500 1800
+F 0 "C89" H 4510 1870 50  0000 L CNN
+F 1 "12mF" H 4505 1740 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 4500 1800 50  0001 C CNN
+F 3 "" H 4500 1800 50  0001 C CNN
+F 4 "63V" H 4600 1680 31  0000 C CNN "Field4"
+F 5 "ESMH630VNN123MA45T" V 4400 1800 20  0000 C CNN "Field5"
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C90
+U 1 1 597D3EF6
+P 4900 1800
+F 0 "C90" H 4910 1870 50  0000 L CNN
+F 1 "10uF" H 4905 1740 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+F 4 "63V" H 5000 1680 31  0000 C CNN "Field4"
+F 5 "EMVE630ADA100MF55G" H 5075 1640 20  0000 C CNN "Field5"
+	1    4900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C18
+U 1 1 597D5F23
+P 4150 1800
+F 0 "C18" H 4160 1870 50  0000 L CNN
+F 1 "12mF" H 4155 1740 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0001 C CNN
+F 4 "63V" H 4250 1680 31  0000 C CNN "Field4"
+F 5 "ESMH630VNN123MA45T" V 4050 1800 20  0000 C CNN "Field5"
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R81
+U 1 1 597DD53A
+P 5750 1750
+F 0 "R81" H 5780 1770 50  0000 L CNN
+F 1 "4.75k" H 5780 1710 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 1750 50  0001 C CNN
+F 3 "" H 5750 1750 50  0001 C CNN
+F 4 "1%" H 5850 1650 31  0000 C CNN "Field4"
+	1    5750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R82
+U 1 1 597DEED5
+P 5750 2050
+F 0 "R82" H 5780 2070 50  0000 L CNN
+F 1 "200" H 5780 2010 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 2050 50  0001 C CNN
+F 3 "" H 5750 2050 50  0001 C CNN
+F 4 "1%" H 5850 1950 31  0000 C CNN "Field4"
+	1    5750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C92
+U 1 1 597E357E
+P 6250 1950
+F 0 "C92" H 6260 2020 50  0000 L CNN
+F 1 "22uF" H 6255 1890 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 6250 1950 50  0001 C CNN
+F 3 "" H 6250 1950 50  0001 C CNN
+F 4 "63V" H 6350 1830 31  0000 C CNN "Field4"
+F 5 "EMVA630ADA220MF80G" H 6435 1785 20  0000 C CNN "Field5"
+	1    6250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR016
+U 1 1 597E3EF7
+P 5350 2450
+F 0 "#PWR016" H 5350 2200 50  0001 C CNN
+F 1 "GND" H 5350 2300 50  0000 C CNN
+F 2 "" H 5350 2450 50  0001 C CNN
+F 3 "" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR014
+U 1 1 597F0755
+P 4500 2100
+F 0 "#PWR014" H 4500 1850 50  0001 C CNN
+F 1 "GND" H 4500 1950 50  0000 C CNN
+F 2 "" H 4500 2100 50  0001 C CNN
+F 3 "" H 4500 2100 50  0001 C CNN
+	1    4500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR08
+U 1 1 59808331
+P 3050 15350
+F 0 "#PWR08" H 3050 15100 50  0001 C CNN
+F 1 "GND" H 3050 15200 50  0000 C CNN
+F 2 "" H 3050 15350 50  0001 C CNN
+F 3 "" H 3050 15350 50  0001 C CNN
+	1    3050 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:PWR_FLAG #FLG05
+U 1 1 598091E2
+P 3050 15350
+F 0 "#FLG05" H 3050 15425 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 15500 50  0000 C CNN
+F 2 "" H 3050 15350 50  0001 C CNN
+F 3 "" H 3050 15350 50  0001 C CNN
+	1    3050 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR23
+U 1 1 5981A46D
+P 6950 6200
+AR Path="/5981A46D" Ref="#PWR23"  Part="1" 
+AR Path="/59615D6E/5981A46D" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 6950 6050 50  0001 C CNN
+F 1 "+12V" H 6950 6340 50  0000 C CNN
+F 2 "" H 6950 6200 50  0001 C CNN
+F 3 "" H 6950 6200 50  0001 C CNN
+	1    6950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:LTC3631 U4
+U 1 1 598205EF
+P 4150 6400
+F 0 "U4" H 3790 6790 50  0000 L BNN
+F 1 "LTC3631" H 3790 6720 50  0000 L BNN
+F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 4300 6300 50  0001 L BNN
+F 3 "" H 4300 6300 50  0001 L BNN
+	1    4150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C3
+U 1 1 59824BA2
+P 3250 6350
+F 0 "C3" H 3260 6420 50  0000 L CNN
+F 1 "1μF" H 3260 6270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 3250 6350 50  0001 C CNN
+F 3 "" H 3250 6350 50  0001 C CNN
+F 4 "X7R" H 3360 6200 31  0000 C CNN "Product"
+F 5 "1206" H 3360 6150 31  0000 C CNN "Field5"
+F 6 "C3225X7R1H105KT" H 3250 6350 60  0001 C CNN "Field6"
+	1    3250 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR011
+U 1 1 59824BA8
+P 3250 6550
+F 0 "#PWR011" H 3250 6300 50  0001 C CNN
+F 1 "GND" H 3250 6400 50  0000 C CNN
+F 2 "" H 3250 6550 50  0001 C CNN
+F 3 "" H 3250 6550 50  0001 C CNN
+	1    3250 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR09
+U 1 1 59824BAE
+P 3100 6200
+AR Path="/59824BAE" Ref="#PWR09"  Part="1" 
+AR Path="/59615D6E/59824BAE" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 3100 6050 50  0001 C CNN
+F 1 "+30V" H 3100 6350 50  0000 C CNN
+F 2 "" H 3350 6250 50  0001 C CNN
+F 3 "" H 3350 6250 50  0001 C CNN
+	1    3100 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3600 6400
+NoConn ~ 3600 6500
+$Comp
+L dc-power-supply-rescue:L_Small L3
+U 1 1 59827C06
+P 4900 6200
+F 0 "L3" H 4930 6240 50  0000 L CNN
+F 1 "100uH" H 4930 6160 50  0000 L CNN
+F 2 "dc-power-supply:DQ6545" H 4900 6200 50  0001 C CNN
+F 3 "" H 4900 6200 50  0001 C CNN
+F 4 "DQ6545-101M" V 4850 6200 31  0000 C CNN "Product"
+	1    4900 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R3
+U 1 1 59829EA7
+P 5200 6350
+F 0 "R3" H 5230 6370 50  0000 L CNN
+F 1 "1M" H 5230 6310 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 6350 50  0001 C CNN
+F 3 "" H 5200 6350 50  0001 C CNN
+	1    5200 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 6500
+$Comp
+L dc-power-supply-rescue:R_Small R6
+U 1 1 5982AF6C
+P 5200 6650
+F 0 "R6" H 5230 6670 50  0000 L CNN
+F 1 "71.5k" H 5230 6610 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 6650 50  0001 C CNN
+F 3 "" H 5200 6650 50  0001 C CNN
+	1    5200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C7
+U 1 1 5982BF3E
+P 5550 6500
+F 0 "C7" H 5560 6570 50  0000 L CNN
+F 1 "10uF" H 5560 6420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5550 6500 50  0001 C CNN
+F 3 "" H 5550 6500 50  0001 C CNN
+F 4 "X7R" H 5660 6350 31  0000 C CNN "Product"
+F 5 "1206" H 5660 6300 31  0000 C CNN "Field5"
+F 6 "GRM32DR71C106KA01" H 5550 6500 60  0001 C CNN "Field6"
+	1    5550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR18
+U 1 1 5982D39B
+P 5950 6200
+AR Path="/5982D39B" Ref="#PWR18"  Part="1" 
+AR Path="/59615D6E/5982D39B" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 5950 6050 50  0001 C CNN
+F 1 "+12V" H 5950 6340 50  0000 C CNN
+F 2 "" H 5950 6200 50  0001 C CNN
+F 3 "" H 5950 6200 50  0001 C CNN
+	1    5950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R12
+U 1 1 59853FEB
+P 5750 6200
+F 0 "R12" V 5780 6190 50  0000 C TNN
+F 1 "0" V 5705 6200 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 6200 50  0001 C CNN
+F 3 "" H 5750 6200 50  0001 C CNN
+	1    5750 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R83
+U 1 1 59858D52
+P 5850 3850
+F 0 "R83" V 5880 3840 50  0000 C TNN
+F 1 "0" V 5805 3850 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 3850 50  0001 C CNN
+F 3 "" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R85
+U 1 1 59859EEE
+P 6450 1600
+F 0 "R85" V 6480 1590 50  0000 C TNN
+F 1 "0" V 6405 1600 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 1600 50  0001 C CNN
+F 3 "" H 6450 1600 50  0001 C CNN
+F 4 "1210" V 6329 1600 31  0000 C CNN "Field4"
+	1    6450 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R9
+U 1 1 5985E24D
+P 4650 8250
+F 0 "R9" V 4680 8240 50  0000 C TNN
+F 1 "0" V 4605 8250 50  0000 C BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 8250 50  0001 C CNN
+F 3 "" H 4650 8250 50  0001 C CNN
+	1    4650 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:LT6657 U1
+U 1 1 5982B293
+P 3850 8250
+F 0 "U1" H 3595 8675 60  0000 C CNN
+F 1 "LT6657" H 3700 8595 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 3750 8150 60  0001 C CNN
+F 3 "" H 3750 8150 60  0001 C CNN
+	1    3850 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C10
+U 1 1 59832757
+P 4450 8500
+F 0 "C10" H 4460 8570 50  0000 L CNN
+F 1 "1uF" H 4460 8420 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4450 8500 50  0001 C CNN
+F 3 "" H 4450 8500 50  0001 C CNN
+F 4 "50V" H 4520 8360 31  0000 C CNN "Field4"
+	1    4450 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:C_Small C4
+U 1 1 59834A28
+P 3050 8350
+F 0 "C4" H 3060 8420 50  0000 L CNN
+F 1 "0.1uF" H 3060 8270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3050 8350 50  0001 C CNN
+F 3 "" H 3050 8350 50  0001 C CNN
+F 4 "50V" H 3120 8210 31  0000 C CNN "Field4"
+	1    3050 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:GND #PWR07
+U 1 1 598353CD
+P 3050 8650
+F 0 "#PWR07" H 3050 8400 50  0001 C CNN
+F 1 "GND" H 3050 8500 50  0000 C CNN
+F 2 "" H 3050 8650 50  0001 C CNN
+F 3 "" H 3050 8650 50  0001 C CNN
+	1    3050 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR05
+U 1 1 59836960
+P 2900 8100
+AR Path="/59836960" Ref="#PWR05"  Part="1" 
+AR Path="/59615D6E/59836960" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 2900 7950 50  0001 C CNN
+F 1 "+30V" H 2900 8250 50  0000 C CNN
+F 2 "" H 3150 8150 50  0001 C CNN
+F 3 "" H 3150 8150 50  0001 C CNN
+	1    2900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR042
+U 1 1 59864C67
+P 12100 6400
+AR Path="/59864C67" Ref="#PWR042"  Part="1" 
+AR Path="/59615D6E/59864C67" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 12100 6250 50  0001 C CNN
+F 1 "+30V" H 12100 6550 50  0000 C CNN
+F 2 "" H 12350 6450 50  0001 C CNN
+F 3 "" H 12350 6450 50  0001 C CNN
+	1    12100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR59
+U 1 1 5986A1CB
+P 15350 7000
+AR Path="/5986A1CB" Ref="#PWR59"  Part="1" 
+AR Path="/59615D6E/5986A1CB" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 15350 6850 50  0001 C CNN
+F 1 "+12V" H 15350 7140 50  0000 C CNN
+F 2 "" H 15350 7000 50  0001 C CNN
+F 3 "" H 15350 7000 50  0001 C CNN
+	1    15350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:+12V #PWR61
+U 1 1 5986A390
+P 15350 8250
+AR Path="/5986A390" Ref="#PWR61"  Part="1" 
+AR Path="/59615D6E/5986A390" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 15350 8100 50  0001 C CNN
+F 1 "+12V" H 15350 8390 50  0000 C CNN
+F 2 "" H 15350 8250 50  0001 C CNN
+F 3 "" H 15350 8250 50  0001 C CNN
+	1    15350 8250
+	1    0    0    -1  
+$EndComp
+Text Notes 12400 5200 0    50   ~ 0
+G=1 (Current sink)
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR040
+U 1 1 5986A4AE
+P 12100 5150
+AR Path="/5986A4AE" Ref="#PWR040"  Part="1" 
+AR Path="/59615D6E/5986A4AE" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 12100 5000 50  0001 C CNN
+F 1 "+30V" H 12100 5300 50  0000 C CNN
+F 2 "" H 12350 5200 50  0001 C CNN
+F 3 "" H 12350 5200 50  0001 C CNN
+	1    12100 5150
+	1    0    0    -1  
+$EndComp
+Text Notes 13900 5500 0    39   ~ 0
+      Current source\n(Matched NPN transistors)
+Text Notes 12800 6650 0    50   ~ 0
+0 .. 25.5V
+Text Notes 11250 6550 0    50   ~ 0
+0..4,096V
+Wire Wire Line
+	14150 1550 14150 1750
+Wire Wire Line
+	2900 8150 2900 8100
+Connection ~ 3050 8600
+Wire Wire Line
+	3300 8600 3050 8600
+Wire Wire Line
+	4450 8600 4450 8650
+Wire Wire Line
+	4450 8250 4450 8400
+Wire Wire Line
+	3050 8450 3050 8600
+Connection ~ 3050 8150
+Wire Wire Line
+	3050 8150 3050 8250
+Connection ~ 3300 8150
+Wire Wire Line
+	4750 8250 4850 8250
+Connection ~ 4450 8250
+Wire Wire Line
+	4350 8250 4450 8250
+Wire Wire Line
+	3300 8350 3300 8600
+Wire Wire Line
+	3350 8350 3300 8350
+Wire Wire Line
+	3300 8250 3350 8250
+Wire Wire Line
+	3300 8150 3300 8250
+Wire Wire Line
+	2900 8150 3050 8150
+Wire Wire Line
+	4950 6400 4700 6400
+Wire Wire Line
+	4950 6500 4950 6400
+Wire Wire Line
+	5200 6500 4950 6500
+Wire Wire Line
+	5200 6200 5200 6250
+Connection ~ 5200 6500
+Connection ~ 4250 6900
+Wire Wire Line
+	5850 6200 5950 6200
+Connection ~ 5550 6200
+Connection ~ 5550 6900
+Wire Wire Line
+	5550 6600 5550 6900
+Connection ~ 5200 6200
+Wire Wire Line
+	5550 6200 5550 6400
+Connection ~ 5200 6900
+Wire Wire Line
+	5200 6900 5200 6750
+Wire Wire Line
+	5200 6450 5200 6500
+Wire Wire Line
+	5000 6200 5200 6200
+Wire Wire Line
+	4700 6200 4800 6200
+Wire Wire Line
+	4150 6900 4250 6900
+Connection ~ 3550 6200
+Wire Wire Line
+	3550 6200 3550 6300
+Wire Wire Line
+	3550 6300 3600 6300
+Wire Wire Line
+	3250 6450 3250 6550
+Wire Wire Line
+	3250 6200 3250 6250
+Connection ~ 3250 6200
+Wire Wire Line
+	3100 6200 3250 6200
+Wire Wire Line
+	6550 1600 6650 1600
+Wire Notes Line
+	6800 2750 6800 1000
+Wire Notes Line
+	2700 2750 6800 2750
+Wire Notes Line
+	2700 1000 2700 2750
+Connection ~ 5350 1900
+Wire Wire Line
+	2150 1700 2900 1700
+Wire Wire Line
+	2150 1500 2900 1500
+Wire Wire Line
+	6250 2200 6250 2050
+Connection ~ 6250 1600
+Wire Wire Line
+	6250 1600 6250 1850
+Connection ~ 4900 1600
+Connection ~ 4150 2050
+Wire Wire Line
+	4150 2050 4150 1900
+Connection ~ 4150 1600
+Wire Wire Line
+	4150 1600 4150 1700
+Wire Wire Line
+	4900 2050 4900 1900
+Wire Wire Line
+	4900 1600 4900 1700
+Connection ~ 4500 2050
+Connection ~ 4500 1600
+Wire Wire Line
+	4500 1600 4500 1700
+Wire Wire Line
+	4500 1900 4500 2050
+Wire Wire Line
+	3250 1400 3150 1400
+Wire Wire Line
+	2900 1700 2900 1950
+Wire Wire Line
+	5950 3850 6050 3850
+Connection ~ 11400 6600
+Wire Wire Line
+	14500 4100 14500 4200
+Connection ~ 14200 4100
+Wire Wire Line
+	14200 4100 14500 4100
+Wire Wire Line
+	17450 6950 17450 7000
+Wire Wire Line
+	16900 6950 16900 7000
+Wire Wire Line
+	17750 6950 17750 7000
+Wire Wire Line
+	16000 5350 16000 5450
+Connection ~ 16350 2800
+Connection ~ 16900 6700
+Wire Wire Line
+	16900 5950 16900 6700
+Connection ~ 17750 6700
+Wire Wire Line
+	17750 6750 17750 6700
+Connection ~ 17450 6700
+Wire Wire Line
+	17450 6700 17750 6700
+Connection ~ 17450 5650
+Connection ~ 17150 8450
+Wire Wire Line
+	17150 8450 20150 8450
+Wire Wire Line
+	17150 8600 17100 8600
+Wire Wire Line
+	17150 8300 17150 8450
+Wire Wire Line
+	17100 8300 17150 8300
+Connection ~ 16850 8450
+Wire Wire Line
+	16850 8600 16900 8600
+Wire Wire Line
+	16850 8300 16900 8300
+Wire Wire Line
+	16850 8300 16850 8450
+Wire Wire Line
+	15550 8450 15900 8450
+Connection ~ 20150 2800
+Wire Wire Line
+	20150 8450 20150 2800
+Wire Wire Line
+	16250 8450 16250 8500
+Connection ~ 15900 8450
+Wire Wire Line
+	15900 8450 15900 8500
+Connection ~ 16250 8450
+Connection ~ 14800 7300
+Connection ~ 15900 7200
+Wire Wire Line
+	15900 7200 15900 7250
+Connection ~ 16250 7200
+Wire Wire Line
+	14250 7300 14800 7300
+Wire Wire Line
+	14800 7600 14800 7300
+Wire Wire Line
+	15550 7600 14800 7600
+Wire Wire Line
+	15550 7400 15550 7600
+Wire Wire Line
+	16250 7200 15900 7200
+Connection ~ 16250 5650
+Wire Wire Line
+	16350 5650 16250 5650
+Wire Wire Line
+	15350 7600 15350 7800
+Connection ~ 13750 5900
+Wire Wire Line
+	13550 5550 13550 5600
+Wire Wire Line
+	13550 6100 13550 5800
+Wire Wire Line
+	13800 6100 13550 6100
+Wire Wire Line
+	15300 5550 15300 5600
+Wire Wire Line
+	15050 5550 15050 5600
+Wire Wire Line
+	15050 6100 15050 5800
+Wire Wire Line
+	14800 6100 15050 6100
+Wire Wire Line
+	15300 6300 15300 5800
+Wire Wire Line
+	14800 6300 15300 6300
+Connection ~ 14850 6000
+Wire Wire Line
+	14800 6000 14850 6000
+Wire Wire Line
+	14850 6400 14800 6400
+Wire Wire Line
+	14850 5550 14850 6000
+Wire Wire Line
+	13750 5550 14850 5550
+Wire Wire Line
+	13750 5550 13750 5900
+Wire Wire Line
+	13750 6000 13800 6000
+Wire Wire Line
+	13450 5900 13750 5900
+Wire Wire Line
+	15500 5900 14800 5900
+Wire Wire Line
+	11400 6800 11400 6850
+Connection ~ 11850 6800
+Wire Wire Line
+	11400 6800 11550 6800
+Wire Wire Line
+	10950 6600 11400 6600
+Wire Wire Line
+	11400 5550 11400 5600
+Wire Wire Line
+	12500 6700 12650 6700
+Connection ~ 13250 6700
+Wire Wire Line
+	13250 6700 13250 7350
+Wire Wire Line
+	13250 7350 13050 7350
+Connection ~ 12650 7350
+Wire Wire Line
+	11850 7350 12650 7350
+Wire Wire Line
+	11850 6800 11850 7350
+Wire Wire Line
+	11750 6800 11850 6800
+Wire Wire Line
+	12650 7100 12650 7350
+Connection ~ 12650 6700
+Wire Wire Line
+	12650 6700 12650 6900
+Connection ~ 11400 5350
+Wire Wire Line
+	11550 5550 11400 5550
+Connection ~ 11850 5550
+Wire Wire Line
+	10950 5350 11400 5350
+Wire Wire Line
+	12100 5750 12100 5950
+Connection ~ 12650 5900
+Wire Wire Line
+	11750 5550 11850 5550
+Wire Wire Line
+	11850 5900 11850 5550
+Connection ~ 12650 5450
+Wire Wire Line
+	11850 5900 12650 5900
+Wire Wire Line
+	12650 5750 12650 5900
+Wire Wire Line
+	12650 5450 12650 5550
+Wire Wire Line
+	12500 5450 12650 5450
+Wire Wire Line
+	13250 5450 13050 5450
+Wire Wire Line
+	13250 5600 13250 5450
+Wire Wire Line
+	17700 6500 14800 6500
+Connection ~ 17700 5400
+Wire Wire Line
+	17700 5400 17450 5400
+Wire Wire Line
+	17700 5350 17700 5400
+Connection ~ 17700 5100
+Wire Wire Line
+	17700 5100 17700 5150
+Wire Wire Line
+	15500 4500 15500 5900
+Wire Wire Line
+	17700 4500 15500 4500
+Connection ~ 17700 3100
+Wire Wire Line
+	17700 3050 17700 3100
+Wire Notes Line
+	2700 8950 2700 7650
+Wire Notes Line
+	5050 8950 2700 8950
+Wire Notes Line
+	5050 7650 5050 8950
+Wire Notes Line
+	2700 7650 5050 7650
+Wire Wire Line
+	20500 3000 22000 3000
+Wire Wire Line
+	19300 2800 19400 2800
+Connection ~ 16775 11750
+Wire Wire Line
+	16775 11725 16775 11750
+Wire Wire Line
+	17000 11750 16775 11750
+Wire Wire Line
+	17000 11825 17000 11750
+Connection ~ 16250 11450
+Wire Wire Line
+	16250 11550 16250 11450
+Wire Wire Line
+	16150 11550 16250 11550
+Wire Wire Line
+	16325 11650 16150 11650
+Connection ~ 14200 11650
+Wire Wire Line
+	14200 13900 14450 13900
+Wire Wire Line
+	14200 11650 14200 13900
+Wire Wire Line
+	13650 14200 14450 14200
+Connection ~ 14100 11550
+Wire Wire Line
+	14100 14000 14450 14000
+Wire Wire Line
+	14100 11550 14100 14000
+Wire Wire Line
+	14000 12050 13500 12050
+Wire Wire Line
+	14000 11850 14000 12050
+Wire Wire Line
+	14350 11850 14000 11850
+Wire Wire Line
+	16150 11450 16250 11450
+Connection ~ 14300 12050
+Wire Wire Line
+	14300 12050 14350 12050
+Connection ~ 14300 11950
+Wire Wire Line
+	14350 11950 14300 11950
+Wire Wire Line
+	14300 11450 14300 11950
+Wire Wire Line
+	14350 11450 14300 11450
+Wire Wire Line
+	14400 13700 14400 13650
+Wire Wire Line
+	14450 13700 14400 13700
+Wire Wire Line
+	14400 14400 14400 14450
+Wire Wire Line
+	14450 14400 14400 14400
+Wire Wire Line
+	7300 14400 10300 14400
+Wire Wire Line
+	10400 14500 7200 14500
+Wire Wire Line
+	7100 14600 10500 14600
+Wire Wire Line
+	7000 14700 10600 14700
+Wire Wire Line
+	8050 13050 9550 13050
+Wire Wire Line
+	8050 13150 9550 13150
+Wire Wire Line
+	8050 13250 9550 13250
+Wire Wire Line
+	8050 13350 9550 13350
+Wire Wire Line
+	10050 13650 10750 13650
+Wire Wire Line
+	10050 13550 10750 13550
+Wire Wire Line
+	10050 13450 10750 13450
+Wire Wire Line
+	13750 11950 13750 12550
+Wire Wire Line
+	13500 11950 13750 11950
+Wire Wire Line
+	13500 11450 13550 11450
+Wire Notes Line
+	11500 14900 11500 10550
+Wire Wire Line
+	13650 11850 13650 14200
+Wire Wire Line
+	13500 11850 13650 11850
+Wire Wire Line
+	16050 13800 16250 13800
+Wire Wire Line
+	16050 13700 16250 13700
+Wire Wire Line
+	12500 11450 12450 11450
+Wire Wire Line
+	13500 12150 13550 12150
+Wire Wire Line
+	13500 11750 14350 11750
+Wire Wire Line
+	13500 11650 14200 11650
+Wire Wire Line
+	13500 11550 14100 11550
+Wire Wire Line
+	16350 12150 16150 12150
+Wire Wire Line
+	16350 12050 16150 12050
+Wire Wire Line
+	16350 11950 16150 11950
+Wire Wire Line
+	12300 11950 12500 11950
+Wire Wire Line
+	12300 11850 12500 11850
+Wire Wire Line
+	12300 11650 12500 11650
+Wire Wire Line
+	12300 12050 12500 12050
+Wire Wire Line
+	12300 11750 12500 11750
+Wire Wire Line
+	12500 11550 12300 11550
+Wire Wire Line
+	12500 12150 12450 12150
+Wire Wire Line
+	20500 3000 20500 3050
+Wire Notes Line
+	21450 3600 21450 2250
+Wire Notes Line
+	22700 3600 21450 3600
+Wire Notes Line
+	22700 2250 22700 3600
+Wire Notes Line
+	21450 2250 22700 2250
+Wire Notes Line
+	1450 2200 1450 1000
+Wire Notes Line
+	2400 2200 1450 2200
+Wire Notes Line
+	2400 1000 2400 2200
+Wire Notes Line
+	1450 1000 2400 1000
+Wire Wire Line
+	9350 13650 9550 13650
+Wire Wire Line
+	9350 13550 9550 13550
+Wire Wire Line
+	9350 13450 9550 13450
+Wire Notes Line
+	900  15700 900  15000
+Wire Notes Line
+	3400 15700 900  15700
+Wire Notes Line
+	3400 15000 3400 15700
+Wire Notes Line
+	900  15000 3400 15000
+Wire Notes Line
+	11300 12250 8750 12250
+Wire Notes Line
+	11300 14900 11300 12250
+Wire Notes Line
+	8750 14900 11300 14900
+Wire Notes Line
+	8750 12250 8750 14900
+Wire Notes Line
+	6600 7150 6600 5850
+Wire Notes Line
+	7350 7150 6600 7150
+Wire Notes Line
+	7350 5850 7350 7150
+Wire Notes Line
+	6600 5850 7350 5850
+Wire Wire Line
+	6950 6800 6950 6850
+Wire Wire Line
+	6950 6450 6950 6500
+Wire Wire Line
+	6950 6200 6950 6250
+Wire Notes Line
+	6600 4900 6600 3600
+Wire Notes Line
+	7350 4900 6600 4900
+Wire Notes Line
+	7350 3600 7350 4900
+Wire Notes Line
+	6600 3600 7350 3600
+Wire Wire Line
+	6950 4550 6950 4600
+Wire Wire Line
+	6950 4200 6950 4250
+Wire Wire Line
+	6950 3950 6950 4000
+Wire Wire Line
+	10050 12450 10150 12450
+Wire Wire Line
+	7550 12450 7450 12450
+Wire Wire Line
+	7300 13350 7300 14400
+Wire Wire Line
+	7550 13350 7300 13350
+Wire Wire Line
+	10300 14400 10300 13350
+Wire Wire Line
+	10300 13350 10050 13350
+Wire Wire Line
+	7200 13250 7550 13250
+Wire Wire Line
+	7200 14500 7200 13250
+Wire Wire Line
+	10400 13250 10400 14500
+Wire Wire Line
+	10050 13250 10400 13250
+Wire Wire Line
+	10050 12850 10250 12850
+Wire Wire Line
+	10050 12450 10050 12750
+Wire Wire Line
+	7550 12450 7550 12750
+Wire Notes Line
+	8650 12250 6600 12250
+Wire Notes Line
+	8650 14900 8650 12250
+Wire Notes Line
+	6600 14900 8650 14900
+Wire Notes Line
+	6600 12250 6600 14900
+Wire Wire Line
+	10500 13150 10050 13150
+Wire Wire Line
+	10500 14600 10500 13150
+Wire Wire Line
+	7100 13150 7100 14600
+Wire Wire Line
+	7550 13150 7100 13150
+Wire Wire Line
+	10600 13050 10050 13050
+Wire Wire Line
+	10600 14700 10600 13050
+Wire Wire Line
+	7000 13050 7000 14700
+Wire Wire Line
+	7550 13050 7000 13050
+Wire Wire Line
+	7550 12950 7150 12950
+Wire Wire Line
+	7550 12850 7350 12850
+Wire Wire Line
+	8050 12950 9550 12950
+Wire Wire Line
+	8050 12850 9550 12850
+Wire Wire Line
+	8050 12750 9550 12750
+Wire Notes Line
+	2700 5200 2700 3200
+Wire Notes Line
+	6300 5200 2700 5200
+Wire Notes Line
+	6300 3200 6300 5200
+Wire Notes Line
+	2700 3200 6300 3200
+Wire Wire Line
+	4050 4850 4050 4900
+Connection ~ 5650 3850
+Connection ~ 5650 4450
+Connection ~ 5250 4450
+Wire Wire Line
+	5250 4650 5200 4650
+Wire Wire Line
+	5250 4450 5250 4650
+Connection ~ 4950 4450
+Wire Wire Line
+	4950 4650 5000 4650
+Wire Wire Line
+	4950 4450 4950 4650
+Wire Wire Line
+	5200 4450 5250 4450
+Wire Wire Line
+	5650 3850 5650 4450
+Wire Wire Line
+	4600 4450 4950 4450
+Connection ~ 4600 4850
+Wire Wire Line
+	4600 4850 4600 4750
+Wire Wire Line
+	4600 4450 4600 4550
+Wire Wire Line
+	5650 4850 5650 4750
+Wire Wire Line
+	5350 4250 5350 4150
+Wire Wire Line
+	4600 4250 5350 4250
+Connection ~ 5350 3850
+Wire Wire Line
+	5350 3850 5350 3950
+Wire Wire Line
+	5250 3850 5350 3850
+Connection ~ 4650 3850
+Wire Wire Line
+	2950 4850 3200 4850
+Wire Wire Line
+	2950 4700 2950 4850
+Wire Wire Line
+	2950 4250 2950 4500
+Wire Wire Line
+	3500 4250 2950 4250
+Connection ~ 3200 4850
+Wire Wire Line
+	3200 4700 3200 4850
+Wire Wire Line
+	3200 4350 3200 4500
+Wire Wire Line
+	3200 4350 3500 4350
+Connection ~ 3450 4850
+Wire Wire Line
+	3450 4850 3450 4700
+Connection ~ 4050 4850
+Wire Wire Line
+	3450 4450 3450 4500
+Wire Wire Line
+	3500 4450 3450 4450
+Wire Wire Line
+	3150 3900 3150 4000
+Wire Wire Line
+	3150 3650 3150 3700
+Wire Wire Line
+	4600 3850 4650 3850
+Wire Wire Line
+	4600 3650 4650 3650
+Connection ~ 3150 3650
+Wire Wire Line
+	3000 3650 3150 3650
+Wire Wire Line
+	3500 3650 3500 3750
+Wire Notes Line
+	2700 7250 2700 5700
+Wire Notes Line
+	6300 7250 2700 7250
+Wire Notes Line
+	6300 5700 6300 7250
+Wire Notes Line
+	2700 5700 6300 5700
+Wire Notes Line
+	21150 1000 9400 1000
+Wire Notes Line
+	6800 1000 2700 1000
+Wire Wire Line
+	11400 3500 11400 1650
+Wire Wire Line
+	11400 1650 14550 1650
+Connection ~ 14150 1550
+Wire Wire Line
+	14950 1650 15650 1650
+Connection ~ 11500 2500
+Wire Wire Line
+	11500 1550 14150 1550
+Wire Wire Line
+	11500 2500 11500 1550
+Connection ~ 11400 3500
+Wire Wire Line
+	18550 1850 18550 1900
+Wire Wire Line
+	18300 1850 18550 1850
+Wire Wire Line
+	18300 1850 18300 2100
+Wire Wire Line
+	19400 2400 19400 2800
+Wire Wire Line
+	18500 2400 19400 2400
+Wire Wire Line
+	17900 1550 17900 1600
+Wire Wire Line
+	17200 1550 17300 1550
+Wire Wire Line
+	18000 2400 18100 2400
+Wire Wire Line
+	15650 2400 16300 2400
+Connection ~ 17700 2400
+Wire Wire Line
+	17700 2400 17700 2050
+Connection ~ 17700 1550
+Wire Wire Line
+	17700 1550 17700 1850
+Connection ~ 17300 1950
+Wire Wire Line
+	17150 1950 17300 1950
+Wire Wire Line
+	17150 1650 17150 1950
+Wire Wire Line
+	16850 1650 17150 1650
+Wire Wire Line
+	17300 1850 17300 1950
+Connection ~ 17300 1550
+Wire Wire Line
+	17300 1550 17300 1650
+Connection ~ 17300 2400
+Wire Wire Line
+	17300 2400 17300 2250
+Wire Wire Line
+	16850 1550 17000 1550
+Connection ~ 17000 2400
+Wire Wire Line
+	17000 2400 17000 2250
+Wire Wire Line
+	17000 1750 17000 2050
+Wire Wire Line
+	16850 1750 17000 1750
+Connection ~ 16850 2400
+Wire Wire Line
+	16850 2400 16850 1950
+Connection ~ 16300 2400
+Wire Wire Line
+	13100 3600 13300 3600
+Connection ~ 15650 1650
+Wire Wire Line
+	15650 2250 15650 2400
+Wire Wire Line
+	15650 1650 15650 2050
+Connection ~ 15650 6700
+Wire Wire Line
+	18650 4000 19550 4000
+Connection ~ 19550 4700
+Connection ~ 16900 4000
+Wire Wire Line
+	15650 6700 15650 4000
+Wire Wire Line
+	15650 4000 16900 4000
+Wire Wire Line
+	16900 3650 16900 4000
+Connection ~ 19550 4000
+Wire Wire Line
+	19550 5100 19350 5100
+Wire Wire Line
+	18950 5350 18950 5400
+Connection ~ 18950 5100
+Wire Wire Line
+	18950 5100 18950 5150
+Wire Wire Line
+	17450 3350 17450 5650
+Wire Wire Line
+	17450 5100 17700 5100
+Wire Wire Line
+	18050 5100 18050 5150
+Connection ~ 18050 5100
+Wire Wire Line
+	18350 5100 18350 5150
+Connection ~ 18350 5100
+Wire Wire Line
+	18650 5100 18650 5150
+Connection ~ 18650 5100
+Wire Wire Line
+	18050 5350 18050 5400
+Wire Wire Line
+	18050 5400 18350 5400
+Wire Wire Line
+	18650 5400 18650 5350
+Wire Wire Line
+	18350 5350 18350 5400
+Connection ~ 18350 5400
+Wire Wire Line
+	19550 2800 19550 4000
+Connection ~ 19550 2800
+Wire Wire Line
+	17450 2800 17700 2800
+Wire Wire Line
+	17450 3100 17700 3100
+Wire Wire Line
+	16150 3050 16150 3150
+Wire Wire Line
+	16150 2800 16150 2850
+Connection ~ 16000 5100
+Wire Wire Line
+	16250 3350 16250 5650
+Wire Wire Line
+	16350 3350 16250 3350
+Connection ~ 16350 5100
+Wire Wire Line
+	16350 5100 16000 5100
+Connection ~ 16000 2800
+Wire Wire Line
+	16000 2800 16000 5100
+Wire Wire Line
+	16350 5400 16350 5100
+Wire Wire Line
+	13600 2800 13900 2800
+Wire Wire Line
+	13100 2800 13400 2800
+Wire Wire Line
+	9750 2500 9950 2500
+Wire Wire Line
+	10500 2500 10500 2550
+Connection ~ 10500 2500
+Wire Wire Line
+	10500 2750 10500 2800
+Wire Wire Line
+	11600 2500 11600 2600
+Connection ~ 11600 2600
+Connection ~ 11600 2500
+Wire Wire Line
+	11600 2800 11350 2800
+Wire Wire Line
+	11600 3900 11600 4000
+Connection ~ 11600 4000
+Connection ~ 11600 4100
+Wire Wire Line
+	11300 3950 11300 4000
+Wire Wire Line
+	11000 3600 11600 3600
+Wire Wire Line
+	11000 3600 11000 3650
+Wire Wire Line
+	11000 3850 11000 3900
+Wire Wire Line
+	11600 3700 11300 3700
+Wire Wire Line
+	11300 3700 11300 3750
+Wire Wire Line
+	10650 3500 10700 3500
+Wire Wire Line
+	10700 3500 10700 3550
+Wire Wire Line
+	10700 3750 10700 3800
+Wire Wire Line
+	11600 3500 11600 3400
+Connection ~ 11600 3500
+Connection ~ 10700 3500
+Wire Wire Line
+	10400 3750 10400 3800
+Wire Wire Line
+	10450 3500 10400 3500
+Wire Wire Line
+	10400 3500 10400 3550
+Wire Wire Line
+	11900 4600 12000 4600
+Connection ~ 12000 4600
+Connection ~ 12100 4600
+Connection ~ 12200 4600
+Connection ~ 12300 4600
+Connection ~ 12500 4600
+Connection ~ 12600 4600
+Connection ~ 12700 4600
+Connection ~ 12400 4600
+Wire Wire Line
+	12400 4600 12400 4650
+Connection ~ 13100 2800
+Connection ~ 13100 2900
+Connection ~ 13100 3000
+Connection ~ 13100 3100
+Wire Wire Line
+	13100 2750 13100 2800
+Wire Wire Line
+	13100 2550 13100 2500
+Connection ~ 13900 2800
+Wire Wire Line
+	13900 2800 13900 3400
+Wire Wire Line
+	13900 3600 13500 3600
+Wire Wire Line
+	13100 3400 13900 3400
+Connection ~ 13900 3400
+Wire Wire Line
+	13100 3800 13300 3800
+Wire Wire Line
+	13500 3800 13700 3800
+Connection ~ 13700 3800
+Wire Wire Line
+	14050 3800 14200 3800
+Wire Wire Line
+	13700 3800 13700 4900
+Connection ~ 14200 3800
+Wire Wire Line
+	14200 4400 14200 4500
+Wire Wire Line
+	14500 4400 14500 4700
+Wire Wire Line
+	14200 2800 14200 3800
+Wire Wire Line
+	13700 4900 14200 4900
+Wire Wire Line
+	14200 4900 14200 4950
+Wire Wire Line
+	14500 4700 14900 4700
+Wire Wire Line
+	19550 4700 15100 4700
+Connection ~ 14200 4900
+Connection ~ 14200 2800
+Wire Wire Line
+	14600 2800 14600 2850
+Wire Wire Line
+	14600 3050 14600 3100
+Connection ~ 14600 2800
+Wire Wire Line
+	14600 3100 14900 3100
+Wire Wire Line
+	15800 3050 15800 3100
+Wire Wire Line
+	15800 2800 15800 2850
+Connection ~ 15800 2800
+Wire Wire Line
+	15500 2800 15500 2850
+Connection ~ 15500 2800
+Wire Wire Line
+	15200 2800 15200 2850
+Connection ~ 15200 2800
+Wire Wire Line
+	14900 2800 14900 2850
+Connection ~ 14900 2800
+Wire Wire Line
+	14900 3050 14900 3100
+Connection ~ 14900 3100
+Wire Wire Line
+	15200 3100 15200 3050
+Connection ~ 15200 3100
+Wire Wire Line
+	15500 3100 15500 3050
+Connection ~ 15500 3100
+Connection ~ 15800 3100
+Connection ~ 16150 2800
+Wire Wire Line
+	16350 2800 16350 3100
+Connection ~ 17700 2800
+Wire Wire Line
+	17700 2800 17700 2850
+Wire Wire Line
+	18100 2800 18100 2850
+Connection ~ 18100 2800
+Wire Wire Line
+	18400 2800 18400 2850
+Connection ~ 18400 2800
+Wire Wire Line
+	18700 2800 18700 2850
+Connection ~ 18700 2800
+Wire Wire Line
+	18100 3050 18100 3100
+Wire Wire Line
+	18100 3100 18400 3100
+Wire Wire Line
+	18700 3100 18700 3050
+Wire Wire Line
+	18400 3050 18400 3100
+Connection ~ 18400 3100
+Wire Wire Line
+	18950 2800 18950 2850
+Connection ~ 18950 2800
+Wire Wire Line
+	18950 3050 18950 3100
+Connection ~ 19400 2800
+Connection ~ 19700 2800
+Wire Wire Line
+	19700 2800 19700 2850
+Wire Wire Line
+	19700 3050 19700 3100
+Wire Wire Line
+	9950 2500 9950 2550
+Wire Wire Line
+	9950 2800 9950 2750
+Wire Wire Line
+	9750 2800 9950 2800
+Connection ~ 9950 2500
+$Comp
+L dc-power-supply-rescue:D_Small D1
+U 1 1 59FE80A8
+P 3350 1400
+F 0 "D1" H 3300 1480 50  0000 L CNN
+F 1 "MUR420" H 3200 1320 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-201AD_P15.24mm_Horizontal" V 3350 1400 50  0001 C CNN
+F 3 "" V 3350 1400 50  0001 C CNN
+	1    3350 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1400 3550 1400
+Connection ~ 3550 1400
+Wire Wire Line
+	3150 1800 3250 1800
+Wire Wire Line
+	3950 1600 4150 1600
+Wire Wire Line
+	3550 1250 3550 1400
+Wire Wire Line
+	3150 1400 3150 1600
+Wire Wire Line
+	3050 2050 4150 2050
+Wire Wire Line
+	3050 1600 3150 1600
+Connection ~ 3150 1600
+$Comp
+L dc-power-supply-rescue:D_Small D12
+U 1 1 59FEC345
+P 3750 1400
+F 0 "D12" H 3700 1480 50  0000 L CNN
+F 1 "MUR420" H 3600 1320 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-201AD_P15.24mm_Horizontal" V 3750 1400 50  0001 C CNN
+F 3 "" V 3750 1400 50  0001 C CNN
+	1    3750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:D_Small D3
+U 1 1 59FEC569
+P 3350 1800
+F 0 "D3" H 3300 1880 50  0000 L CNN
+F 1 "MUR420" H 3200 1720 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-201AD_P15.24mm_Horizontal" V 3350 1800 50  0001 C CNN
+F 3 "" V 3350 1800 50  0001 C CNN
+	1    3350 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:D_Small D13
+U 1 1 59FEC70B
+P 3750 1800
+F 0 "D13" H 3700 1880 50  0000 L CNN
+F 1 "MUR420" H 3600 1720 50  0000 L CNN
+F 2 "Diodes_ThroughHole:D_DO-201AD_P15.24mm_Horizontal" V 3750 1800 50  0001 C CNN
+F 3 "" V 3750 1800 50  0001 C CNN
+	1    3750 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1800 3550 1800
+Wire Wire Line
+	3850 1400 3950 1400
+Wire Wire Line
+	3950 1400 3950 1600
+Wire Wire Line
+	3950 1800 3850 1800
+Wire Wire Line
+	3050 2050 3050 1600
+Connection ~ 3950 1600
+Wire Wire Line
+	2900 1500 2900 1250
+Wire Wire Line
+	2900 1250 3550 1250
+Wire Wire Line
+	2900 1950 3550 1950
+Wire Wire Line
+	3550 1950 3550 1800
+Connection ~ 3550 1800
+$Comp
+L dc-power-supply-rescue:CP_Small C2
+U 1 1 59FFDDE9
+P 5250 2150
+F 0 "C2" H 5095 2220 50  0000 L CNN
+F 1 "10uF" H 5060 2085 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 5250 2150 50  0001 C CNN
+F 3 "" H 5250 2150 50  0001 C CNN
+F 4 "63V" H 5130 2020 31  0000 C CNN "Field4"
+F 5 "EMVE630ADA100MF55G" H 5130 1975 20  0000 C CNN "Field5"
+	1    5250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dc-power-supply-rescue:CP_Small C6
+U 1 1 5A001CFC
+P 5450 2150
+F 0 "C6" H 5495 2215 50  0000 L CNN
+F 1 "10uF" H 5455 2085 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 5450 2150 50  0001 C CNN
+F 3 "" H 5450 2150 50  0001 C CNN
+F 4 "63V" H 5530 2015 31  0000 C CNN "Field4"
+F 5 "EMVE630ADA100MF55G" H 5525 1970 20  0000 C CNN "Field5"
+	1    5450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1850 5350 1900
+Wire Wire Line
+	5250 2000 5350 2000
+Wire Wire Line
+	5450 2000 5450 2050
+Wire Wire Line
+	5250 2000 5250 2050
+Connection ~ 5350 2000
+Wire Wire Line
+	5250 2250 5250 2300
+Wire Wire Line
+	5250 2300 5350 2300
+Wire Wire Line
+	5450 2300 5450 2250
+Wire Wire Line
+	5350 2300 5350 2400
+Connection ~ 5350 2300
+Connection ~ 5350 2400
+Wire Wire Line
+	3050 8600 3050 8650
+Wire Wire Line
+	3050 8150 3300 8150
+Wire Wire Line
+	3300 8150 3350 8150
+Wire Wire Line
+	4450 8250 4550 8250
+Wire Wire Line
+	5200 6500 5200 6550
+Wire Wire Line
+	4250 6900 5200 6900
+Wire Wire Line
+	5550 6200 5650 6200
+Wire Wire Line
+	5550 6900 5550 6950
+Wire Wire Line
+	5200 6200 5550 6200
+Wire Wire Line
+	5200 6900 5550 6900
+Wire Wire Line
+	3550 6200 3600 6200
+Wire Wire Line
+	3250 6200 3550 6200
+Wire Wire Line
+	5350 1900 5350 2000
+Wire Wire Line
+	6250 1600 6350 1600
+Wire Wire Line
+	5750 1600 6000 1600
+Wire Wire Line
+	4900 1600 5000 1600
+Wire Wire Line
+	4150 2050 4500 2050
+Wire Wire Line
+	4150 1600 4500 1600
+Wire Wire Line
+	4500 2050 4500 2100
+Wire Wire Line
+	4500 2050 4900 2050
+Wire Wire Line
+	4500 1600 4900 1600
+Wire Wire Line
+	11400 6600 11900 6600
+Wire Wire Line
+	14200 4100 14200 4200
+Wire Wire Line
+	16900 6700 16900 6750
+Wire Wire Line
+	17750 6700 18400 6700
+Wire Wire Line
+	17450 6700 17450 6750
+Wire Wire Line
+	17450 5650 17450 6700
+Wire Wire Line
+	17150 8450 17150 8600
+Wire Wire Line
+	16850 8450 16850 8600
+Wire Wire Line
+	20150 2800 22000 2800
+Wire Wire Line
+	15900 8450 16250 8450
+Wire Wire Line
+	16250 8450 16850 8450
+Wire Wire Line
+	14800 7300 14950 7300
+Wire Wire Line
+	15900 7200 15550 7200
+Wire Wire Line
+	16250 7200 16250 7250
+Wire Wire Line
+	16250 5650 16250 7200
+Wire Wire Line
+	13750 5900 13750 6000
+Wire Wire Line
+	13750 5900 13800 5900
+Wire Wire Line
+	14850 6000 14850 6400
+Wire Wire Line
+	11850 6800 11900 6800
+Wire Wire Line
+	13250 6700 15650 6700
+Wire Wire Line
+	12650 7350 12850 7350
+Wire Wire Line
+	12650 6700 13250 6700
+Wire Wire Line
+	11400 5350 11900 5350
+Wire Wire Line
+	11850 5550 11900 5550
+Wire Wire Line
+	12650 5900 13050 5900
+Wire Wire Line
+	12650 5450 12850 5450
+Wire Wire Line
+	17700 5400 17700 6500
+Wire Wire Line
+	17700 5100 18050 5100
+Wire Wire Line
+	17700 3100 17700 4500
+Wire Wire Line
+	16775 11750 16775 11825
+Wire Wire Line
+	16250 11450 17000 11450
+Wire Wire Line
+	14200 11650 14350 11650
+Wire Wire Line
+	14100 11550 14350 11550
+Wire Wire Line
+	14300 12050 14300 12100
+Wire Wire Line
+	14300 11950 14300 12050
+Wire Wire Line
+	5650 3850 5750 3850
+Wire Wire Line
+	5650 4450 5650 4550
+Wire Wire Line
+	5250 4450 5650 4450
+Wire Wire Line
+	4950 4450 5000 4450
+Wire Wire Line
+	4600 4850 5650 4850
+Wire Wire Line
+	5350 3850 5650 3850
+Wire Wire Line
+	4650 3850 5050 3850
+Wire Wire Line
+	3200 4850 3450 4850
+Wire Wire Line
+	3450 4850 4050 4850
+Wire Wire Line
+	4050 4850 4600 4850
+Wire Wire Line
+	3150 3650 3500 3650
+Wire Wire Line
+	14150 1550 15750 1550
+Wire Wire Line
+	11500 2500 11600 2500
+Wire Wire Line
+	11400 3500 11600 3500
+Wire Wire Line
+	17700 2400 17800 2400
+Wire Wire Line
+	17700 1550 17900 1550
+Wire Wire Line
+	17300 1950 17300 2050
+Wire Wire Line
+	17300 1550 17700 1550
+Wire Wire Line
+	17300 2400 17700 2400
+Wire Wire Line
+	17000 2400 17300 2400
+Wire Wire Line
+	16850 2400 17000 2400
+Wire Wire Line
+	16300 2400 16850 2400
+Wire Wire Line
+	15650 1650 15750 1650
+Wire Wire Line
+	15650 6700 16900 6700
+Wire Wire Line
+	19550 4700 19550 5100
+Wire Wire Line
+	16900 4000 18450 4000
+Wire Wire Line
+	16900 4000 16900 4050
+Wire Wire Line
+	19550 4000 19550 4700
+Wire Wire Line
+	18950 5100 19150 5100
+Wire Wire Line
+	18050 5100 18350 5100
+Wire Wire Line
+	18350 5100 18650 5100
+Wire Wire Line
+	18650 5100 18950 5100
+Wire Wire Line
+	18350 5400 18650 5400
+Wire Wire Line
+	18350 5400 18350 5450
+Wire Wire Line
+	19550 2800 19700 2800
+Wire Wire Line
+	16000 5100 16000 5150
+Wire Wire Line
+	16000 2800 16150 2800
+Wire Wire Line
+	10500 2500 11500 2500
+Wire Wire Line
+	11600 2600 11600 2700
+Wire Wire Line
+	11600 4000 11600 4100
+Wire Wire Line
+	11600 4100 11600 4150
+Wire Wire Line
+	10700 3500 11400 3500
+Wire Wire Line
+	12000 4600 12100 4600
+Wire Wire Line
+	12100 4600 12200 4600
+Wire Wire Line
+	12200 4600 12300 4600
+Wire Wire Line
+	12300 4600 12400 4600
+Wire Wire Line
+	12500 4600 12600 4600
+Wire Wire Line
+	12600 4600 12700 4600
+Wire Wire Line
+	12700 4600 12800 4600
+Wire Wire Line
+	12400 4600 12500 4600
+Wire Wire Line
+	13100 2800 13100 2900
+Wire Wire Line
+	13100 2900 13100 3000
+Wire Wire Line
+	13100 3000 13100 3100
+Wire Wire Line
+	13100 3100 13100 3200
+Wire Wire Line
+	13900 2800 14200 2800
+Wire Wire Line
+	13900 3400 13900 3600
+Wire Wire Line
+	13700 3800 13850 3800
+Wire Wire Line
+	14200 3800 14200 4100
+Wire Wire Line
+	14200 2800 14600 2800
+Wire Wire Line
+	14600 2800 14900 2800
+Wire Wire Line
+	15800 2800 16000 2800
+Wire Wire Line
+	15500 2800 15800 2800
+Wire Wire Line
+	15200 2800 15500 2800
+Wire Wire Line
+	14900 2800 15200 2800
+Wire Wire Line
+	14900 3100 15200 3100
+Wire Wire Line
+	15200 3100 15500 3100
+Wire Wire Line
+	15500 3100 15800 3100
+Wire Wire Line
+	15800 3100 15800 3150
+Wire Wire Line
+	16150 2800 16350 2800
+Wire Wire Line
+	17700 2800 18100 2800
+Wire Wire Line
+	18100 2800 18400 2800
+Wire Wire Line
+	18400 2800 18700 2800
+Wire Wire Line
+	18700 2800 18950 2800
+Wire Wire Line
+	18400 3100 18700 3100
+Wire Wire Line
+	18400 3100 18400 3150
+Wire Wire Line
+	18950 2800 19100 2800
+Wire Wire Line
+	19400 2800 19550 2800
+Wire Wire Line
+	19700 2800 20150 2800
+Wire Wire Line
+	9950 2500 10500 2500
+Wire Wire Line
+	3550 1400 3650 1400
+Wire Wire Line
+	3150 1600 3150 1800
+Wire Wire Line
+	3950 1600 3950 1800
+Wire Wire Line
+	3550 1800 3650 1800
+Wire Wire Line
+	5350 2000 5450 2000
+Wire Wire Line
+	5350 2300 5450 2300
+Wire Wire Line
+	5350 2400 5350 2450
+Text Notes 1450 2400 0    60   ~ 0
+Digikey Part # :\n237-1955-ND
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR0142
+U 1 1 5F85C386
+P 6650 1550
+AR Path="/5F85C386" Ref="#PWR0142"  Part="1" 
+AR Path="/59615D6E/5F85C386" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 6650 1400 50  0001 C CNN
+F 1 "+30V" H 6650 1700 50  0000 C CNN
+F 2 "" H 6900 1600 50  0001 C CNN
+F 3 "" H 6900 1600 50  0001 C CNN
+	1    6650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1550 6650 1600
+$Comp
+L dc-power-supply-rescue:+30V-dc-power-supply-rescue #PWR0143
+U 1 1 5F8B1AB8
+P 9750 2450
+AR Path="/5F8B1AB8" Ref="#PWR0143"  Part="1" 
+AR Path="/59615D6E/5F8B1AB8" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 9750 2300 50  0001 C CNN
+F 1 "+30V" H 9750 2600 50  0000 C CNN
+F 2 "" H 10000 2500 50  0001 C CNN
+F 3 "" H 10000 2500 50  0001 C CNN
+	1    9750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2500 9750 2450
+Wire Wire Line
+	5750 1850 5750 1900
+Wire Wire Line
+	5350 2400 5750 2400
+Wire Wire Line
+	5350 1900 5750 1900
+Connection ~ 5750 1900
+Wire Wire Line
+	5750 1900 5750 1950
+Wire Wire Line
+	5750 1650 5750 1600
+$Comp
+L dc-power-supply-rescue:D_Small D15
+U 1 1 5F9569F7
+P 6000 1750
+F 0 "D15" V 5954 1818 50  0000 L CNN
+F 1 "BAT54" V 6045 1818 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323F" V 6000 1750 50  0001 C CNN
+F 3 "" V 6000 1750 50  0001 C CNN
+	1    6000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:D_Small D14
+U 1 1 5F95951C
+P 5450 1250
+F 0 "D14" H 5450 1455 50  0000 C CNN
+F 1 "BAT54" H 5450 1364 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323F" V 5450 1250 50  0001 C CNN
+F 3 "" V 5450 1250 50  0001 C CNN
+	1    5450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1600 6000 1650
+Connection ~ 6000 1600
+Wire Wire Line
+	6000 1850 6000 1900
+Wire Wire Line
+	6000 1900 5750 1900
+Wire Wire Line
+	5550 1250 6000 1250
+Wire Wire Line
+	6000 1250 6000 1600
+Wire Wire Line
+	5350 1250 4900 1250
+Wire Wire Line
+	4900 1250 4900 1600
+Wire Wire Line
+	5750 2150 5750 2200
+Wire Wire Line
+	6000 1600 6250 1600
+Wire Wire Line
+	5750 2200 6250 2200
+Connection ~ 5750 2200
+Wire Wire Line
+	5750 2200 5750 2400
+$Comp
+L dc_supply:LM338T U3
+U 1 1 5FD6E57D
+P 5350 1650
+F 0 "U3" H 5375 1965 50  0000 C CNN
+F 1 "LM338T" H 5375 1874 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5350 1650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm338.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1601839143585" H 5350 1650 50  0001 C CNN
+	1    5350 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1600
+$Comp
+L dc-power-supply-rescue:GND #PWR0144
+U 1 1 5FEADD17
+P 16900 12075
+F 0 "#PWR0144" H 16900 11825 50  0001 C CNN
+F 1 "GND" H 16900 11925 50  0000 C CNN
+F 2 "" H 16900 12075 50  0001 C CNN
+F 3 "" H 16900 12075 50  0001 C CNN
+	1    16900 12075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17000 12025 16900 12025
+Wire Wire Line
+	16900 12075 16900 12025
+Connection ~ 16900 12025
+Wire Wire Line
+	16900 12025 16775 12025
+Wire Wire Line
+	16150 11750 16525 11750
+Wire Notes Line
+	11500 14900 17300 14900
+Wire Notes Line
+	17300 14900 17300 10550
+Wire Notes Line
+	11500 10550 17300 10550
+$Comp
+L dc-power-supply-rescue:Ferrite_Bead_Small L7
+U 1 1 602C3E46
+P 16425 11650
+F 0 "L7" V 16188 11650 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 16279 11650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 16355 11650 50  0001 C CNN
+F 3 "" H 16425 11650 50  0001 C CNN
+	1    16425 11650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16525 11650 16525 11750
+Connection ~ 16525 11750
+Wire Wire Line
+	16525 11750 16775 11750
+$Comp
+L dc-power-supply-rescue:Ferrite_Bead_Small L2
+U 1 1 60375B14
+P 14275 14100
+F 0 "L2" V 14038 14100 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 14129 14100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14205 14100 50  0001 C CNN
+F 3 "" H 14275 14100 50  0001 C CNN
+	1    14275 14100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14375 14100 14450 14100
+$Comp
+L dc-power-supply-rescue:+3.3V #PWR0145
+U 1 1 603CD9BF
+P 13900 13750
+F 0 "#PWR0145" H 13900 13600 50  0001 C CNN
+F 1 "+3.3V" H 13900 13890 50  0000 C CNN
+F 2 "" H 13900 13750 50  0001 C CNN
+F 3 "" H 13900 13750 50  0001 C CNN
+	1    13900 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 13750 13900 14100
+Wire Wire Line
+	13900 14100 14175 14100
+$Comp
+L dc-power-supply-rescue:LT1013DS U10
+U 2 1 59725690
+P 15250 8550
+F 0 "U10" H 15250 8750 50  0000 L CNN
+F 1 "LT1013DS" H 15250 8400 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 15250 8550 50  0001 C CNN
+F 3 "" H 15250 8550 50  0001 C CNN
+	2    15250 8550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 8550 14750 8550
+$Comp
+L dc-power-supply-rescue:R_Small R2
+U 1 1 6042756F
+P 15150 9075
+F 0 "R2" H 15180 9095 50  0000 L CNN
+F 1 "100k" H 15180 9035 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15150 9075 50  0001 C CNN
+F 3 "" H 15150 9075 50  0001 C CNN
+F 4 "1%" H 15220 8975 31  0000 C CNN "Field4"
+	1    15150 9075
+	0    1    1    0   
+$EndComp
+$Comp
+L dc-power-supply-rescue:R_Small R5
+U 1 1 60428774
+P 15650 9200
+F 0 "R5" H 15680 9220 50  0000 L CNN
+F 1 "1k" H 15680 9160 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15650 9200 50  0001 C CNN
+F 3 "" H 15650 9200 50  0001 C CNN
+F 4 "1%" H 15720 9100 31  0000 C CNN "Field4"
+	1    15650 9200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15250 9075 15650 9075
+Wire Wire Line
+	15650 9075 15650 9100
+Wire Wire Line
+	15650 9075 15650 8650
+Wire Wire Line
+	15650 8650 15550 8650
+Connection ~ 15650 9075
+Wire Wire Line
+	15050 9075 14750 9075
+Wire Wire Line
+	14750 9075 14750 8550
+Connection ~ 14750 8550
+Wire Wire Line
+	14750 8550 14950 8550
+$Comp
+L dc-power-supply-rescue:GND #PWR0146
+U 1 1 6052F88D
+P 15650 9300
+F 0 "#PWR0146" H 15650 9050 50  0001 C CNN
+F 1 "GND" H 15650 9150 50  0000 C CNN
+F 2 "" H 15650 9300 50  0001 C CNN
+F 3 "" H 15650 9300 50  0001 C CNN
+	1    15650 9300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9400 9600 21150 9600
+Wire Notes Line
+	21150 1000 21150 9600
+Wire Notes Line
+	9400 1000 9400 9600
+Text Notes 15675 8450 0    39   ~ 0
+0.6 mV @ 3A
+$EndSCHEMATC
