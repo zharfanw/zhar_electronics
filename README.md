@@ -7,7 +7,7 @@ Database of Zharfan's Electronics
 ## Electronics Theme
 ### Power Distribution Module MOSFET DC
   1. [Single Switch PDM](/SingleSwitchControlPDM/)
-  2.
+  2. 
 ### Power Distribution Module Relay
   1. Single Relay :soon:
   2. 4 Channel Relay :soon:
@@ -24,12 +24,23 @@ Database of Zharfan's Electronics
   3. [Latch Power Button with Trigger](/LatchPowerButtonWithTrig_Module/)
 ### DCDC Converter
   1. [Non Inverting Buck Boost Converter SEPIC MT3608](/Non%20Inverting%20Buck_Boost%20Converter%20Sepic%20MT3608/) 
-
-### Battery Management System
-#### 1. FOX BMS
-  1. Master
-  2. Slave 
-### BLDC/PMSM/AC Motor Controller
+### BLDC/PMSM/AC Motor Controller :soon:
   1. [Referensi VESC Controller](https://github.com/paltatech/VESC-controller)
   2. 
-  
+### Battery Management System
+ 1. Referensi Fox BMS
+ 2. 
+
+### Signal Generator :soon:
+:arrows_counterclockwise:
+### DC Motor Controller :soon:
+:arrows_counterclockwise:
+### Formula Student :soon:
+:arrows_counterclockwise:
+### Engine Control Unit :soon:
+:arrows_counterclockwise:
+### Engine Ignition System :soon:
+:arrows_counterclockwise:
+### Mosfet Driver :soon:
+:arrows_counterclockwise:
+
