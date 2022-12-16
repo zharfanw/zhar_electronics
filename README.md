@@ -16,6 +16,7 @@ Database of Zharfan's Electronics
 ### Power Button 
   1. [External Latch Power Button](/ExternalLatchPowerButton_Raw)
   2. [Smart Power Button Latch](/LTC2954_ModuleConnector/)
+  3. [Latch Power Button with Trigger](/LatchPowerButtonWithTrig_Module/)
 ### DCDC Converter
   1. [Non Inverting Buck Boost Converter SEPIC MT3608](/Non%20Inverting%20Buck_Boost%20Converter%20Sepic%20MT3608/) 
   
