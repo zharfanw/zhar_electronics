@@ -5,9 +5,14 @@ Database of Zharfan's Electronics
   1. KiCAD
 
 ## Electronics Theme
-### Power Distribution Module DC
+### Power Distribution Module MOSFET DC
   1. [Single Switch PDM](/SingleSwitchControlPDM/)
   2.
+### Power Distribution Module Relay
+  1. Single Relay :soon:
+  2. 4 Channel Relay :soon:
+  3. 8 Channel Relay :soon:
+  4. 8 Channel Relay via I2C :soon:
 ### ESP32 Universe
   1. [ESP32 Raw](/ESP32Raw/)
 ### At Tiny uC Universe
@@ -19,4 +24,12 @@ Database of Zharfan's Electronics
   3. [Latch Power Button with Trigger](/LatchPowerButtonWithTrig_Module/)
 ### DCDC Converter
   1. [Non Inverting Buck Boost Converter SEPIC MT3608](/Non%20Inverting%20Buck_Boost%20Converter%20Sepic%20MT3608/) 
+
+### Battery Management System
+#### 1. FOX BMS
+  1. Master
+  2. Slave 
+### BLDC/PMSM/AC Motor Controller
+  1. [Referensi VESC Controller](https://github.com/paltatech/VESC-controller)
+  2. 
   
