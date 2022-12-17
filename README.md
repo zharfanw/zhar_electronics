@@ -35,7 +35,7 @@ Database of Zharfan's Electronics
  1. [Referensi Speeduino](https://github.com/speeduino)
  2. [Referensi rusEFI](https://github.com/rusefi)
 
-### FPGA Board 
+### FPGA Board by Olimex
  1. [Referensi Olimex](https://github.com/OLIMEX/iCE40HX8K-EVB)
  2. [Referensi Olimex 1](https://github.com/OLIMEX/iCE40HX1K-EVB)
  3. 
