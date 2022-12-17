@@ -35,10 +35,26 @@ Database of Zharfan's Electronics
  1. [Referensi Speeduino](https://github.com/speeduino)
  2. [Referensi rusEFI](https://github.com/rusefi)
 
+### FPGA Board 
+ 1. [Referensi Olimex](https://github.com/OLIMEX/iCE40HX8K-EVB)
+ 2. [Referensi Olimex 1](https://github.com/OLIMEX/iCE40HX1K-EVB)
+ 3. 
+
 ### Instrumentation Signal Conditioning
  1. 4-20mA to 0-5v Converter :soon:
  2. 4-20mA to 0-3v Converter :soon:
- 
+
+### Display 
+  1. OLED
+  2. 7 Segment
+  3. Dot Matrix
+  4. HMI
+
+### Sensor IC
+  1. MPU6050
+  2. Accelerometer
+  3. Barometric
+  4. 
 
 ### Analog Multiplexer :soon:
 :arrows_counterclockwise:
