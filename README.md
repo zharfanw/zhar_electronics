@@ -35,6 +35,11 @@ Database of Zharfan's Electronics
  1. [Referensi Speeduino](https://github.com/speeduino)
  2. [Referensi rusEFI](https://github.com/rusefi)
 
+### Instrumentation Signal Conditioning
+ 1. 4-20mA to 0-5v Converter :soon:
+ 2. 4-20mA to 0-3v Converter :soon:
+ 
+
 ### Analog Multiplexer :soon:
 :arrows_counterclockwise:
 ### Digital Multiplexer :soon:
