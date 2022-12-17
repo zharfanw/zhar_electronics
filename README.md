@@ -38,7 +38,10 @@ Database of Zharfan's Electronics
 ### FPGA Board by Olimex
  1. [Referensi Olimex](https://github.com/OLIMEX/iCE40HX8K-EVB)
  2. [Referensi Olimex 1](https://github.com/OLIMEX/iCE40HX1K-EVB)
- 3. 
+ 3. [Referensi Olimex FPGA Daughter ADC](https://www.olimex.com/Products/FPGA/iCE40/iCE40-ADC/open-source-hardware)
+ 4. [Referensi Olimex FPGA Daughter DAC](https://www.olimex.com/Products/FPGA/iCE40/iCE40-DAC/open-source-hardware)
+ 5. [Referensi Olimex FPGA Daughter VGA, PS/2 and IrDA link](https://www.olimex.com/Products/FPGA/iCE40/iCE40-IO/open-source-hardware)
+ 6. [Referensi Olimex FPGA Daughter DIO](https://www.olimex.com/Products/FPGA/iCE40/iCE40-DIO/open-source-hardware)
 
 ### Instrumentation Signal Conditioning
  1. 4-20mA to 0-5v Converter :soon:
