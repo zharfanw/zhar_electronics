@@ -85,8 +85,8 @@ Database of Zharfan's Electronics
  6. [Referensi Olimex FPGA Daughter DIO](https://www.olimex.com/Products/FPGA/iCE40/iCE40-DIO/open-source-hardware)
 
 
-### Referensi from Wagiminator(Need To Copy) (0/66 Coppied)
- 1. [IP5306 LiPo Charger Booster SMD](https://oshwlab.com/wagiminator/y-ip5306-lipo-charger-booster)
+### Referensi from Wagiminator(Need To Copy) (1/66 Coppied)
+ 1. [IP5306 LiPo Charger Booster SMD (Copied)](https://oshwlab.com/wagiminator/y-ip5306-lipo-charger-booster)
  2. [ATmega SolderingStation SMD v2](https://oshwlab.com/wagiminator/z-solderingstation-smd-v2)
  3. [ATmega TransistorTester SMD](https://oshwlab.com/wagiminator/y-atmega-transistortester-smd)
  4. [ATtiny84 TinyHVSP SMD](https://oshwlab.com/wagiminator/z-attiny84-tinyhvprogrammer)
