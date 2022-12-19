@@ -28,8 +28,8 @@ Database of Zharfan's Electronics
   1. [Non Inverting Buck Boost Converter SEPIC MT3608](/Non%20Inverting%20Buck_Boost%20Converter%20Sepic%20MT3608/) 
   2. [78xx Replacement](/78xx%20Replacement/)
 
-### Battery Management System
- 1. 
+### Power Bank Batttery Management System
+ 1. [Power Bank IP5306](/PowerBank_IP5306)
 
 ### Instrumentation Signal Conditioning
  1. 4-20mA to 0-5v Converter :soon:
@@ -85,7 +85,7 @@ Database of Zharfan's Electronics
  6. [Referensi Olimex FPGA Daughter DIO](https://www.olimex.com/Products/FPGA/iCE40/iCE40-DIO/open-source-hardware)
 
 
-### Referensi from Wagiminator(Need To Copy)  
+### Referensi from Wagiminator(Need To Copy) (0/66 Coppied)
  1. [IP5306 LiPo Charger Booster SMD](https://oshwlab.com/wagiminator/y-ip5306-lipo-charger-booster)
  2. [ATmega SolderingStation SMD v2](https://oshwlab.com/wagiminator/z-solderingstation-smd-v2)
  3. [ATmega TransistorTester SMD](https://oshwlab.com/wagiminator/y-atmega-transistortester-smd)
