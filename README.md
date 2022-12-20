@@ -68,6 +68,10 @@ Database of Zharfan's Electronics
 
 ## Regerence Design
 
+### Nucleo Series STM32 (Need to Copy)()
+ 1. [Nucleo 64 STM32F446RE]
+ 2. [Nucleo 144 STM32]
+
 ### BLDC/PMSM/AC Motor Controller :soon:
   1. [Referensi VESC Controller](https://github.com/paltatech/VESC-controller)
   2. 
