@@ -68,6 +68,10 @@ Database of Zharfan's Electronics
 
 ## Regerence Design
 
+### Multimeter/Oscilloscope 
+  1. [STM32 Scopev1](https://oshwlab.com/radiohonza/stm32ez-scopev1_copy)
+  2. [STM32 Multimeter](https://hackaday.io/project/165857-stm32-open-source-multimeter)
+
 ### Nucleo Series STM32 (Need to Copy)()
  1. [Nucleo 64 STM32F446RE]
  2. [Nucleo 144 STM32]
@@ -89,7 +93,7 @@ Database of Zharfan's Electronics
  6. [Referensi Olimex FPGA Daughter DIO](https://www.olimex.com/Products/FPGA/iCE40/iCE40-DIO/open-source-hardware)
 
 
-### Referensi from Wagiminator(Need To Copy) (1/66 Coppied)
+### Referensi from Wagiminator(Need To Copy) (2/66 Coppied)
  1. [IP5306 LiPo Charger Booster SMD (Copied)](https://oshwlab.com/wagiminator/y-ip5306-lipo-charger-booster)
  2. [ATmega SolderingStation SMD v2](https://oshwlab.com/wagiminator/z-solderingstation-smd-v2)
  3. [ATmega TransistorTester SMD](https://oshwlab.com/wagiminator/y-atmega-transistortester-smd)
@@ -116,7 +120,7 @@ Database of Zharfan's Electronics
 13. (https://oshwlab.com/wagiminator/y-attiny10-development-board-smd
 )
 
-14. (https://oshwlab.com/wagiminator/ip5306-lipo-charger-booster-usb-c
+14. [IP5306 LiPo Charger Booster USB-C (Copied)](https://oshwlab.com/wagiminator/ip5306-lipo-charger-booster-usb-c
 )
 
 15. (https://oshwlab.com/wagiminator/lipo-charger-protector-booster_copy
