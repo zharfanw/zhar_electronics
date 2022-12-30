@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP XL6008
+D Wide 3.6V to 32V Input Voltage Range 400khz 60v 3A Switching Current Boost/Buck Boost/ Inverting DC/DC Converter
+K
+F http://www.xlsemi.com/datasheet/XL6008%20datasheet.pdf
+$ENDCMP
+#
+$CMP MT2492
+D Input Supply Voltage . -0.3V to 17V Operating Temperature Range  -40C to +85C EN,FB Voltages .-0.3 to 6V Lead Temperature(Soldering,10s) .....+300C SW Voltage ..-0.3V to (Vin+0.5V) Storage Temperature Range .-65C to 150C
+K
+F https://datasheet.lcsc.com/lcsc/1810262207_XI-AN-Aerosemi-Tech-MT2492_C89358.pdf
+$ENDCMP
+#
+#End Doc Library
